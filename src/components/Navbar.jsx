@@ -7,15 +7,15 @@ function Navbar() {
   return (
     <div>
         <header className='bg-white'>
-            <nav className='flex justify-between items-center w-[92%] mx-auto pt-4'>
+            <nav className='flex justify-between items-center w-[92%] mx-auto pt-4 font-montserat'>
                 <div>
-                    <span className = "w-24"><a href="http://localhost:5173/"><SiAdobexd/></a></span>
+                    <span className = "font-bold"><a href="http://localhost:5173/">TravelHike</a></span>
                 </div>
                 <div>
-                    <ul className='flex justify-center gap-7'>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Blogs</a></li>
-                        <li><a href="#">Projects</a></li>
+                    <ul className='flex justify-center gap-10'>
+                        <li><a href="#">Discover</a></li>
+                        <li><a href="#">Explore</a></li>
+                        <li><a href="#">Be a Guide</a></li>
                     </ul>
                 </div>
                 {/* <div className = 'flex '>

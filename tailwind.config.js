@@ -3,7 +3,13 @@ export default {
   content: ["./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",],
   theme: {
+
     extend: {},
+    fontFamily: {
+      'montserat': ['montserat', 'sans-serif'],
+      'MyFont': ['"My Font"', 'serif']
+    },
+
   },
   plugins: [],
 }
