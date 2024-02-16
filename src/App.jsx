@@ -1,5 +1,6 @@
 import Navbar from "./components/Navbar"
 import MuiButton from "./components/MuiButton"
+import MainCard from "./components/MainCard"
 
 export default function App() {
   return (
@@ -26,6 +27,9 @@ export default function App() {
 
       </div>
     </div>
+
+    <MainCard />
+
     </>
   )
 }
