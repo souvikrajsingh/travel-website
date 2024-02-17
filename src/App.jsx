@@ -29,7 +29,8 @@ export default function App() {
     </div>
 
     <MainCard />
-    {/* cgguwedu */}
+    {/* The card section that contains the individual destination routing */}
+
 
     </>
   )
