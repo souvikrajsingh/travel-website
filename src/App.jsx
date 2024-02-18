@@ -6,9 +6,9 @@ export default function App() {
     <>
     <Navbar/>
     <div>
-      <div className="flex" >
+      <div className="grid grid-cols-2 gap-2 justify-center" >
 
-        <div className="pt-12 mt-12 pl-12 pr-12" >
+        <div className="pt-12 mt-12 pl-12" >
           <h4 className="font-bold text-4xl ">
           Find Your Trail Companion: Connecting Hikers with Guides
           </h4>
@@ -19,13 +19,16 @@ export default function App() {
           <MuiButton ></MuiButton>
         </div>
 
-        <div className="pt-12 mt-12 pr-12">
-        <img src="src\assets\images\manali.jpg" alt="" width="600" height="600" className="pb-4"/>
-        <img src="src\assets\images\sandakpu.jpg" alt="" width="600" height="600" />
+        <div className="pt-8 m-4 grid grid-cols-2 gap-4">
+          <img src="src\assets\images\mussorie.jpg" alt="" className="rounded-lg " width="350" height="350"  />
+          <img src="src\assets\images\manali.jpg" alt="" className="rounded-lg  " width="350" height="350" />
+          <img src="src\assets\images\sandakpu.jpg" alt="" className="rounded-lg " width="350" height="350" />  
         </div>
-
+        
       </div>
     </div>
+
+    
     </>
   )
 }
