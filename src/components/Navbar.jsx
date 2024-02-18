@@ -15,6 +15,7 @@ function Navbar() {
                     <ul className='flex justify-center gap-10'>
                         <li><a href="#">Discover</a></li>
                         <li><a href="#">Explore</a></li>
+                        <li><a href="#">Treks</a></li>
                         <li><a href="#">Be a Guide</a></li>
                     </ul>
                 </div>
