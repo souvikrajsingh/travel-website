@@ -1,6 +1,7 @@
 import Navbar from "./components/Navbar"
 import MuiButton from "./components/MuiButton"
 import ImageCard from "./components/ImageCard"
+import Footer from "./components/Footer"
 
 export default function App() {
   return (
@@ -31,6 +32,9 @@ export default function App() {
 
       <ImageCard />
 
+
+
+      <Footer />
     </>
   )
 }
