@@ -25,7 +25,7 @@ const card_library = [
       reviews: "⭐ 4.8 (3.2k)",
       name: "Cultural Spiti Experience",
       price: "INR 20,000",
-    },
+    }
   ];
   
   export default card_library;
