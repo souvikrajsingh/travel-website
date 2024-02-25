@@ -1,5 +1,4 @@
 import React from 'react';
-import { SiAdobexd } from 'react-icons/si';
 import { MdDarkMode } from 'react-icons/md';
 import { Link } from 'react-router-dom';
 
@@ -17,7 +16,7 @@ function Navbar() {
                             <li><Link to='/Explore'>Explore</Link></li>
                             <li><Link to='/Treks'>Treks</Link></li>
                             <li><Link to='/BeAGuide'>Be a Guide</Link></li>
-                            <li><Link to='/Signin'>Sign in</Link></li>
+                            <li><Link to='/Profile'>Profile</Link></li>
                         </ul>
                     </div>
                     {/* <div className='flex '>

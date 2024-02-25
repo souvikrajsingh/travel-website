@@ -1,8 +1,11 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App.jsx';
-import SigninPage from './SigninPage.jsx';
+import Profile from './Profile.jsx';
+import SignInCard from './components/SignInCard.jsx';
+import SignUpCard from './components/SignUpCard.jsx';
+
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 const router = createBrowserRouter([
@@ -13,14 +16,31 @@ const router = createBrowserRouter([
       <App />
     ),
   },
-  
+
   {
-    // Sign in Page
-    path: '/Signin',
+    // Profile Page
+    path: '/Profile',
     element: (
-      <SigninPage />
+      <Profile />
     ),
   },
+
+  {
+    // Sign in Page
+    path: '/Profile/Signin',
+    element: (
+      <SignInCard />
+    ),
+  },
+
+  {
+    // Sign up Page
+    path: '/Profile/Signup',
+    element: (
+      <SignUpCard />
+    ),
+  },
+
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
