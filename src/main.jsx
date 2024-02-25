@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App.jsx';
 import Profile from './Profile.jsx';
-import SignInCard from './components/SignInCard.jsx';
+import SignInCard from './components/SigninCard.jsx';
 import SignUpCard from './components/SignUpCard.jsx';
 
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
