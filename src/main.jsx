@@ -1,10 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+import './Footer.css';
 import App from './App.jsx';
 import Profile from './Profile.jsx';
 import SignInCard from './components/SignInCard.jsx';
 import SignUpCard from './components/SignUpCard.jsx';
+import Explore from './Explore.jsx';
+import Treks from './Treks.jsx';
 
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
@@ -14,6 +17,22 @@ const router = createBrowserRouter([
     path: '/',
     element: (
       <App />
+    ),
+  },
+
+  {
+    // Explore Page
+    path: '/Explore',
+    element: (
+      <Explore />
+    ),
+  },
+
+  {
+    // Treks Page
+    path: '/Treks',
+    element: (
+      <Treks />
     ),
   },
 
