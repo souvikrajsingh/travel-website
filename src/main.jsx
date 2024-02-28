@@ -7,6 +7,7 @@ import SignInCard from './components/Profile-Page/SignInCard.jsx';
 import SignUpCard from './components/Profile-Page/SignUpCard.jsx';
 import Explore from './components/Explore-Page/Explore.jsx';
 import Treks from './components/Treks-Page/Treks.jsx';
+import BeGuide from './components/Be_a_Guide-Page/BeGuide.jsx';
 
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
@@ -32,6 +33,13 @@ const router = createBrowserRouter([
     path: '/Treks',
     element: (
       <Treks />
+    ),
+  },
+  {
+    // Treks Page
+    path: '/BeAGuide',
+    element: (
+      <BeGuide />
     ),
   },
 
