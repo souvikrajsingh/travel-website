@@ -28,7 +28,7 @@ function ImageCard() {
                         <h2>Exclusive Winter Spiti</h2>
                         <h3>7 days & 6 nights</h3>
                         <p>⭐ 4.9 (3.4k)</p>
-                        <p>description here</p>
+                        <p>description</p>
                         <p>INR 22,800</p>
                         <button>Explore</button>
                     </div>
@@ -43,7 +43,7 @@ function ImageCard() {
                         <h2>Cultural Spiti Experience</h2>
                         <h3>6 days & 5 nights</h3>
                         <p>⭐ 4.8 (3.2k)</p>
-                        <p>description here</p>
+                        <p>description</p>
                         <p>INR 20,000</p>
                         <button>Explore</button>
                     </div>
