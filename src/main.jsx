@@ -2,11 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App.jsx';
-import Profile from './Profile.jsx';
-import SignInCard from './components/SignInCard.jsx';
-import SignUpCard from './components/SignUpCard.jsx';
-import Explore from './Explore.jsx';
-import Treks from './Treks.jsx';
+import Profile from './components/Profile-Page/Profile.jsx';
+import SignInCard from './components/Profile-Page/SignInCard.jsx';
+import SignUpCard from './components/Profile-Page/SignUpCard.jsx';
+import Explore from './components/Explore-Page/Explore.jsx';
+import Treks from './components/Treks-Page/Treks.jsx';
 
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 

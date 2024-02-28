@@ -1,14 +1,13 @@
 import Navbar from "./components/Navbar"
 import MuiButton from "./components/MuiButton"
-import ImageCard from "./components/ImageCard"
-import Footer from "./components/Footer"
+import Footer from "./components/Footer";
+// import ImageCard from "./components/Explore-Page/ImageCard"
 
 function App() {
   return (
     <>
       <Navbar />,
       {Display()},
-      <ImageCard />,
       <Footer />
     </>
   );

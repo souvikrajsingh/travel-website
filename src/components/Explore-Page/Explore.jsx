@@ -1,8 +1,8 @@
 import React from "react";
-import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
+import Navbar from "../Navbar.jsx";
+import Footer from "../Footer.jsx";
 import "./Explore.css";
-import "./explore.js";
+// import "./Explore.js";
 
 
 export default function Explore() {
