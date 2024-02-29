@@ -71,57 +71,63 @@ function Display() {
             <div class="second">
                 <h2>Become a Travel Guide and Explore the World with Us!</h2>
                 <p>
+                    <ol>
+                        <li>
+                            <b>Registration Form</b>
+                        </li>
+                        <br></br>
+                        <li>-Full Name</li>
+                        <li>-Email Address</li>
+                        <li>-Phone Number</li>
+                        <li>-Date of Birth</li>
+                        <li>-Nationality</li>
+                        <li>-Gender</li>
+                        <li>-Languages Spoken (multiple-choice checkboxes)</li>
+                        <li>-Brief Introduction (textarea)</li>
+                        <li>-Upload Photo: Allow guides to upload a professional photo.</li>
+                        <li>-Travel Experience (textarea): Allow guides to share their travel experiences and expertise.</li>
+                    </ol>
+                    <br></br>
                     <ul>
                         <li>
-                            <h4>Registration Form</h4>
+                            <b>Destination Preferences</b>
                         </li>
-                        <li>Full Name</li>
-                        <li>Email Address</li>
-                        <li>Phone Number</li>
-                        <li>Date of Birth</li>
-                        <li>Nationality</li>
-                        <li>Gender</li>
-                        <li>Languages Spoken (multiple-choice checkboxes)</li>
-                        <li>Brief Introduction (textarea)</li>
-                        <li>Upload Photo: Allow guides to upload a professional photo.</li>
-                        <li>Travel Experience (textarea): Allow guides to share their travel experiences and expertise.</li>
+                        <br></br>
+                        <li>-Preferred Regions/Countries (multi-select dropdown or checkboxes)</li>
+                        <li>-Types of Tours Interested In (e.g., Adventure, Cultural, Food, etc.)</li>
                     </ul>
                     <br></br>
                     <ul>
                         <li>
-                            <h4>Destination Preferences</h4>
+                            <b>Skills and Certifications</b>
                         </li>
-                        <li>Preferred Regions/Countries (multi-select dropdown or checkboxes)</li>
-                        <li>Types of Tours Interested In (e.g., Adventure, Cultural, Food, etc.)</li>
+                        <br></br>
+                        <li>-Relevant Skills (checkboxes or text input)</li>
+                        <li>-Certifications or Licenses (textarea)</li>
                     </ul>
                     <br></br>
                     <ul>
                         <li>
-                            <h4>Skills and Certifications</h4>
+                            <b>Availability</b>
                         </li>
-                        <li>Relevant Skills (checkboxes or text input)</li>
-                        <li>Certifications or Licenses (textarea)</li>
+                        <br></br>
+                        <li>-Specify availability by days of the week or months.</li>
                     </ul>
                     <br></br>
                     <ul>
                         <li>
-                            <h4>Availability</h4>
+                            <b>Terms and Conditions</b>
                         </li>
-                        <li>Specify availability by days of the week or months.</li>
+                        <br></br>
+                        <li>-Checkbox for agreeing to terms and conditions.</li>
                     </ul>
                     <br></br>
                     <ul>
                         <li>
-                            <h4>Terms and Conditions</h4>
+                            <b>Submit Button</b>
                         </li>
-                        <li>Checkbox for agreeing to terms and conditions.</li>
-                    </ul>
-                    <br></br>
-                    <ul>
-                        <li>
-                            <h4>Submit Button</h4>
-                        </li>
-                        <li>Clearly labeled "Submit" button to complete the registration.</li>
+                        <br></br>
+                        <li>-Clearly labeled "Submit" button to complete the registration.</li>
                     </ul>
                     <br></br>
                 </p>
