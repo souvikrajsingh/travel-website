@@ -16,7 +16,7 @@ function SignInCard() {
 
 export function Display() {
     return (
-        <div>
+        <div className="p-5">
             <div className="grid grid-cols-1 lg:grid-cols-2">
                 <div className="flex items-center justify-center px-4 py-10 sm:px-6 sm:py-16 lg:px-8 lg:py-24">
                     <div className="xl:mx-auto xl:w-full xl:max-w-sm 2xl:max-w-md">
@@ -115,7 +115,7 @@ export function Display() {
                     <img
                         className="mx-auto h-full w-full rounded-md object-cover"
                         src="https://images.pexels.com/photos/386009/pexels-photo-386009.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                        alt=""
+                        alt="sign in image"
                     />
                 </div>
             </div>

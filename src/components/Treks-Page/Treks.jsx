@@ -11,7 +11,9 @@ function Trek() {
         <>
             <Navbar />
             {Display()}
-            {/* <Footer /> */}
+            
+            <ImageCard />
+            <Footer />
         </>
     );
 }
@@ -68,8 +70,6 @@ function Display() {
                 <h2>Welcome to the Mountains</h2>
                 <p>let's explore together!</p>
             </div>
-            <ImageCard />,
-            <Footer />
         </>
 
     );

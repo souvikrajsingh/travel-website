@@ -16,14 +16,14 @@ function SignUpCard() {
 
 export function Display() {
     return (
-        <section>
+        <section className="p-5 pt-6">
             <div className="grid grid-cols-1 lg:grid-cols-2">
                 <div className="relative flex items-end px-4 pb-10 pt-60 sm:px-6 sm:pb-16 md:justify-center lg:px-8 lg:pb-24">
                     <div className="absolute inset-0">
                         <img
-                            className="h-full w-full rounded-md object-cover object-top"
+                            className="mx-auto h-full w-full rounded-md object-cover"
                             src="https://images.pexels.com/photos/335393/pexels-photo-335393.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                            alt=""
+                            alt="sign up image"
                         />
                     </div>
                 </div>
