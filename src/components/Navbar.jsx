@@ -33,7 +33,7 @@ function Navbar() {
             <FaSearch /><input className="pl-1" placeholder="Type to search" />
           </div> */}
           <div>
-            <Link to="/Profile/Sign">
+            <Link to="/Profile/Signin">
               <Buttons buttonName="Sign In" />
             </Link>
 
