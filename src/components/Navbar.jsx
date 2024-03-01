@@ -1,6 +1,6 @@
 import React from "react";
 import { MdDarkMode } from "react-icons/md";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import Buttons from "../components/Buttons.jsx";
 
 function Navbar() {
@@ -10,22 +10,68 @@ function Navbar() {
         <nav className="flex justify-between items-center w-[92%] mx-auto pt-4 font-montserat">
           <div>
             <span className="font-bold">
-              <a href="http://localhost:5173/">TravelHike</a>
+              <NavLink exact to="/" activeClassName="active-link">
+                TravelHike
+              </NavLink>
             </span>
           </div>
           <div>
             <ul className="flex justify-center gap-10">
               <li>
-                <Link to="/">Discover</Link>
+                <NavLink
+                  to="/"
+                  style={({ isActive, isPending, isTransitioning }) => {
+                    return {
+                      fontWeight: isActive ? "bold" : "",
+                      color: isPending ? "red" : "black",
+                      viewTransitionName: isTransitioning ? "slide" : "",
+                    };
+                  }}
+                >
+                  Discover
+                </NavLink>
               </li>
               <li>
-                <Link to="/Explore">Explore</Link>
+                <NavLink
+                  to="/Explore"
+                  style={({ isActive, isPending, isTransitioning }) => {
+                    return {
+                      fontWeight: isActive ? "bold" : "",
+                      color: isPending ? "red" : "black",
+                      viewTransitionName: isTransitioning ? "slide" : "",
+                    };
+                  }}
+                >
+                  Explore
+                </NavLink>
               </li>
               <li>
-                <Link to="/Treks">Treks</Link>
+                <NavLink
+                  to="/Treks"
+                  style={({ isActive, isPending, isTransitioning }) => {
+                    return {
+                      fontWeight: isActive ? "bold" : "",
+                      color: isPending ? "red" : "black",
+                      viewTransitionName: isTransitioning ? "slide" : "",
+                    };
+                  }}
+                >
+                  Treks
+                </NavLink>
               </li>
               <li>
-                <Link to="/BeAGuide">Be a Guide</Link>
+                <NavLink
+                  to="/BeAGuide"
+                  style={({ isActive, isPending, isTransitioning }) => {
+                    return {
+                      fontWeight: isActive ? "bold" : "",
+                      color: isPending ? "red" : "black",
+                      viewTransitionName: isTransitioning ? "slide" : "",
+                    };
+                  }}
+                >
+                  Be a Guide
+                </NavLink>
               </li>
             </ul>
           </div>
@@ -33,13 +79,31 @@ function Navbar() {
             <FaSearch /><input className="pl-1" placeholder="Type to search" />
           </div> */}
           <div>
-            <Link to="/Profile/Sign">
+            <NavLink
+              to="/Profile/Sign"
+              style={({ isActive, isPending, isTransitioning }) => {
+                return {
+                  fontWeight: isActive ? "bold" : "",
+                  color: isPending ? "red" : "black",
+                  viewTransitionName: isTransitioning ? "slide" : "",
+                };
+              }}
+            >
               <Buttons buttonName="Sign In" />
-            </Link>
+            </NavLink>
 
-            <Link to="/Profile/Signup" className="px-2">
+            <NavLink
+              to="/Profile/Signup"
+              style={({ isActive, isPending, isTransitioning }) => {
+                return {
+                  fontWeight: isActive ? "bold" : "",
+                  color: isPending ? "red" : "black",
+                  viewTransitionName: isTransitioning ? "slide" : "",
+                };
+              }}
+            >
               <Buttons buttonName="Sign Up" />
-            </Link>
+            </NavLink>
             <button className="h-10">
               <MdDarkMode />
             </button>
