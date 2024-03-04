@@ -80,7 +80,7 @@ function Navbar() {
           </div> */}
           <div>
             <NavLink
-              to="/Profile/Sign"
+              to="/Profile/Signin"
               style={({ isActive, isPending, isTransitioning }) => {
                 return {
                   fontWeight: isActive ? "bold" : "",
