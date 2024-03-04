@@ -1,14 +1,12 @@
 import Navbar from "./components/Navbar"
 import MuiButton from "./components/MuiButton"
 import Footer from "./components/Footer";
-import ImageSlider from "./components/Home-Page/ImageSlider";
 
 function App() {
   return (
     <>
       <Navbar />
       {Display()}
-      <ImageSlider />
       <Footer />
     </>
   );
