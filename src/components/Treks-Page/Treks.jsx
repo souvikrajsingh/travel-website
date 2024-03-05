@@ -3,7 +3,7 @@ import { useEffect } from "react";
 import Navbar from "../Navbar";
 import Footer from "../Footer";
 import './Treks.css';
-import ImageCard from "../Explore-Page/ImageCard"
+import ImageCard from "./ImageCard"
 
 
 function Trek() {

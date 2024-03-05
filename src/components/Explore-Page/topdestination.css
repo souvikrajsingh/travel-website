@@ -1,0 +1,228 @@
+.dBody {
+    --cover-timing: 0.5s;
+    --cover-ease: cubic-bezier(0.66, 0.08, 0.19, 0.97);
+    --cover-stagger: 0.15s;
+    --text-timing: .75s;
+    --text-stagger: 0.015s;
+    --text-ease: cubic-bezier(0.38, 0.26, 0.05, 1.07);
+    --title-stagger: 0.05s;
+    --highlight: white;
+}
+
+.d-card {
+    position: relative;
+    overflow: hidden;
+    aspect-ratio: 9/12;
+    max-height: 300px;
+    width: 60vw;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 7px;
+    box-shadow:
+        rgba(255, 255, 255, 0.3) 0 5vw 6vw -8vw,
+        rgba(255, 255, 255, 0) 0 4.5vw 5vw -6vw,
+        rgba(50, 50, 80, 0.5) 0px 4vw 8vw -2vw,
+        rgba(0, 0, 0, 0.8) 0px 4vw 5vw -3vw;
+    transition: box-shadow 1s var(--cover-ease), width 0.5s ease;
+    /* Added width transition */
+}
+
+.d-card>* {
+    z-index: 2;
+}
+
+.d-card>img {
+    z-index: 0;
+    transition: all 0.8s cubic-bezier(0.66, 0.08, 0.19, 0.97);
+}
+
+.d-card::before,
+.d-card::after {
+    content: "";
+    width: 100%;
+    height: 50%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    transform-origin: left;
+    transform: scaleX(0);
+    transition: all var(--cover-timing) var(--cover-ease);
+    z-index: 1;
+}
+
+.d-card::after {
+    transition-delay: var(--cover-stagger);
+    top: 50%;
+}
+
+.d-card:hover,
+.d-card:focus {
+    box-shadow: white 0 5vw 6vw -9vw, var(--highlight) 0 5.5vw 5vw -7.5vw, rgba(50, 50, 80, 0.5) 0px 4vw 8vw -2vw, rgba(0, 0, 0, 0.8) 0px 4vw 5vw -3vw;
+}
+
+.d-card:hover::before,
+.d-card:hover::after,
+.d-card:focus::before,
+.d-card:focus::after {
+    transform: scaleX(1);
+}
+
+.d-card:hover h2 .char,
+.d-card:hover p .word,
+.d-card:focus h2 .char,
+.d-card:focus p .word {
+    opacity: 1;
+    transform: translateY(0);
+    color: inherit;
+}
+
+.d-card:hover h2 .char,
+.d-card:focus h2 .char {
+    transition-delay: calc(0.1s + var(--char-index) * var(--title-stagger));
+}
+
+.d-card:hover p .word,
+.d-card:focus p .word {
+    transition-delay: calc(0.1s + var(--word-index) * var(--text-stagger));
+}
+
+.d-card:hover img,
+.d-card:focus img {
+    transform: scale(1.1);
+}
+
+.d-card:nth-of-type(1) {
+    --highlight: coral;
+}
+
+.d-card:nth-of-type(2) {
+    --highlight: #56ffe5;
+}
+
+.Dtext {
+    position: absolute;
+    inset: 20px;
+    top: auto;
+}
+
+.Dtext>h2 {
+    font-size: 30px;
+    font-size: clamp(20px, 4vw, 40px);
+    font-weight: 800;
+    margin-bottom: 0.2em;
+}
+
+.Dtext>p {
+    font-size: 12px;
+    font-size: clamp(10px, 1.25vw, 14px);
+    line-height: 1.4;
+    text-align: justify;
+    margin-top: 0.2em;
+    margin-bottom: 0;
+}
+
+h2 .char,
+p .word {
+    color: var(--highlight);
+    display: inline-block;
+    opacity: 0;
+    position: relative;
+    transform: translateY(20px);
+    transition-property: transform, opacity, color;
+    transition-timing-function: var(--text-ease);
+    transition-duration: var(--text-timing), var(--text-timing), calc(var(--text-timing)*2);
+}
+
+.d-card>img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    border-radius: 7px;
+}
+
+.dBody>main {
+    grid-template-columns: 1fr;
+    grid-template-rows: 60px;
+    grid-gap: 2em;
+}
+
+@media screen and (min-width: 600px) {
+    .dBody>main {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: -webkit-min-content 1fr;
+        grid-template-rows: min-content 1fr;
+    }
+}
+
+.d-card {
+    width: 90vw;
+    max-width: 300px;
+}
+
+@media screen and (min-width: 600px) {
+    .d-card {
+        width: 30vw;
+    }
+}
+
+.dBody>h1 {
+    background-image: url("https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 30px;
+    font-size: clamp(20px, 4vw, 40px);
+    font-weight: 800;
+    margin-bottom: 0.2em;
+    padding: 2rem;
+}
+
+.dBody>h1>hr {
+    padding-top: 2rem;
+    display: flex;
+    border-top: transparent;
+    border-bottom: #028e2a solid 0.1rem;
+    height: 0.15rem;
+    width: 2.5rem;
+    margin: 0 auto;
+    border-radius: 0.15rem;
+}
+
+@media screen and (min-width: 600px) {
+    .dBody>h1 {
+        grid-column: 1/3;
+    }
+}
+
+.dBody,
+.dBody>main {
+    display: grid;
+    place-items: center;
+}
+
+.dBody>main {
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    gap: 13px;
+}
+
+.dBody {
+    color: white;
+    background: #ffffff;
+    padding: 0;
+    margin: 0;
+    min-height: 100vh;
+    font-family: "Open Sans", sans-serif;
+}
+
+.dBody {
+    padding: 1em 0 3em;
+    min-height: calc(100vh - 4em);
+}
+
