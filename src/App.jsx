@@ -1,11 +1,13 @@
 import Navbar from "./components/Navbar"
 import MuiButton from "./components/MuiButton"
 import Footer from "./components/Footer";
+import Animation from "./components/Home-Page/Animation";
 
 function App() {
   return (
     <>
       <Navbar />
+      <Animation />
       {Display()}
       <Footer />
     </>

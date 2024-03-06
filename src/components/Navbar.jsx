@@ -11,7 +11,7 @@ function Navbar() {
           <div>
             <span className="font-bold">
               <NavLink exact to="/" activeClassName="active-link">
-                TravelHike
+                TravelHikes
               </NavLink>
             </span>
           </div>
