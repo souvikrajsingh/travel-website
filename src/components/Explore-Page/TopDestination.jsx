@@ -11,7 +11,7 @@ export default function TopDestination() {
     }, []);
 
     return (
-        <div>
+        <>
             <body className="dBody">
                 <h1>Top Destinations<hr></hr></h1>
                 <main>
@@ -61,7 +61,7 @@ export default function TopDestination() {
 
                 </main>
             </body>
-        </div>
+        </>
     );
 }
 

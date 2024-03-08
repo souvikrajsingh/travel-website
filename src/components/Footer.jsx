@@ -54,8 +54,8 @@ function Footer() {
 
             </footer>,
 
-            <div class="flex flex-col justify-end items-center">
-                <div class="mb-6 text-gray-400 font-medium">
+            <div className="flex flex-col justify-end items-center">
+                <div className="mb-6 text-gray-400 font-medium">
                     {Copyright()}
                 </div>
             </div>
