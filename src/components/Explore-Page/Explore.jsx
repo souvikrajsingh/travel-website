@@ -10,7 +10,7 @@ function Play() {
   return (
     <div className="play-section">
       <div className="overlay"></div>
-      <video src={bgvid} autoPlay loop muted />
+      <video src={bgvid} autoPlay muted />
       
       <div className="content">
         <h1>Welcome</h1>
@@ -26,7 +26,7 @@ export default function Explore() {
     <>
       <Navbar />
       <Tabbar />
-      {Play()}
+      {/* {Play()} */}
       <TopDestinaion />
       <Footer />
     </>

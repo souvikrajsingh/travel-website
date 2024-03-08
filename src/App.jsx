@@ -1,13 +1,15 @@
 import Navbar from "./components/Navbar"
 import MuiButton from "./components/MuiButton"
 import Footer from "./components/Footer";
-import Animation from "./components/Home-Page/Animation";
+import Animation from "./components/Discover-Page/Animation";
+import SearchBox from "./components/Discover-Page/SearchBox";
 
 function App() {
   return (
     <>
       <Navbar />
       <Animation />
+      <SearchBox />
       {Display()}
       <Footer />
     </>
@@ -17,6 +19,7 @@ function App() {
 function Display() {
   return (
     <div>
+      <hr className="my-6" />
       <div className="grid grid-cols-2 gap-2 justify-center" >
 
         <div className="pt-12 mt-12 pl-12" >
