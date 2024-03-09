@@ -1,11 +1,4 @@
 
-/* * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Montserrat', serif;
-} */
-
 .trek-body {
     height: 100vh;
     width: 100vw;
@@ -53,20 +46,3 @@
     font-size: 10rem;
 }
 
-.sec {
-    padding: 100px;
-    padding-bottom: 20px;
-}
-
-.sec h2 {
-    font-size: 4rem;
-    margin-bottom: 30px;
-    color: #20496a;
-}
-
-.sec p {
-    font-size: 1.2rem;
-    line-height: 2rem;
-    font-weight: 300;
-    color: #20496a;
-}

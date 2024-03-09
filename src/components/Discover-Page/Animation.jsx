@@ -1,9 +1,7 @@
-import React from "react";
-import { useEffect } from "react";
+import React, { useEffect } from "react";
 import './animation.css';
 
 export default function Animation() {
-
     useEffect(() => {
         const mountainLeft = document.querySelector('#mountain_left');
         const mountainRight = document.querySelector('#mountain_right');
@@ -30,27 +28,17 @@ export default function Animation() {
         };
     }, []);
 
-
     return (
-        <>
-            <div>
-                <body className="trek-body">
-                    <section className="top">
-                        <img src="https://aryan-tayal.github.io/Mountains-Parallax/bg.jpg" id="bg" />
-                        <h2 id="text">TravelHikes</h2>
-                        <img src="https://aryan-tayal.github.io/Mountains-Parallax/man.png" id="man" />
-                        <img src="https://aryan-tayal.github.io/Mountains-Parallax/clouds_1.png" id="clouds_1" />
-                        <img src="https://aryan-tayal.github.io/Mountains-Parallax/clouds_2.png" id="clouds_2" />
-                        <img src="https://aryan-tayal.github.io/Mountains-Parallax/mountain_left.png" id="mountain_left" />
-                        <img src="https://aryan-tayal.github.io/Mountains-Parallax/mountain_right.png" id="mountain_right" />
-                    </section>
-                </body>
-            </div>,
-            <div className="sec">
-                {/* <h2>Welcome to TravelHikes</h2>
-                <p>let's go on a journey together!</p> */}
-            </div>
-        </>
-
+        <div className="trek-body">
+            <section className="top">
+                <img src="https://aryan-tayal.github.io/Mountains-Parallax/bg.jpg" id="bg" alt="Background" />
+                <h2 id="text">TravelHikes</h2>
+                <img src="https://aryan-tayal.github.io/Mountains-Parallax/man.png" id="man" alt="Man" />
+                <img src="https://aryan-tayal.github.io/Mountains-Parallax/clouds_1.png" id="clouds_1" alt="Clouds 1" />
+                <img src="https://aryan-tayal.github.io/Mountains-Parallax/clouds_2.png" id="clouds_2" alt="Clouds 2" />
+                <img src="https://aryan-tayal.github.io/Mountains-Parallax/mountain_left.png" id="mountain_left" alt="Left Mountain" />
+                <img src="https://aryan-tayal.github.io/Mountains-Parallax/mountain_right.png" id="mountain_right" alt="Right Mountain" />
+            </section>
+        </div>
     );
 }

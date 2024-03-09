@@ -1,0 +1,28 @@
+.slider-container {
+    width: 80%;
+    margin: 0;
+}
+
+.card-slick {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 3px solid #56be7e;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 0 10px;
+    background-color: #fff;
+}
+
+.card-slick img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.card-slick h3 {
+    font-size: 18px;
+    margin: 0;
+}

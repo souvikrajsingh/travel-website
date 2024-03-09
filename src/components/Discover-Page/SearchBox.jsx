@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import $ from 'jquery';
 import './searchBox.css';
-import openingImage from './photos/opening-poster.png';
+import openingImage from './Banners/opening-poster.png';
 
 export default function SearchBox() {
     const [searchTerm, setSearchTerm] = useState('');
