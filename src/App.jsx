@@ -12,8 +12,8 @@ function App() {
       <Navbar />
       <Animation />
       <SearchBox />
-      <ImageCarousel />
-      <CardSlick />
+      {/* <ImageCarousel />
+      <CardSlick /> */}
       {Display()}
       <Footer />
     </>
