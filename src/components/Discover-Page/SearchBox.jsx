@@ -1,8 +1,10 @@
-import React, { useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import $ from 'jquery';
 import './searchBox.css';
 
 export default function SearchBox() {
+    const [searchTerm, setSearchTerm] = useState('');
+
     useEffect(() => {
         const handleFocus = (event) => {
             $(event.target).parent().addClass('focus');
@@ -19,20 +21,39 @@ export default function SearchBox() {
         };
     }, []);
 
+    const handleSearchChange = (event) => {
+        setSearchTerm(event.target.value);
+    };
+
+    const handleSearchSubmit = (event) => {
+        event.preventDefault();
+        // Add your search logic here (e.g., fetching data based on the search term)
+        console.log('Search term submitted:', searchTerm);
+    };
+
     return (
         <>
             <div className="where">
                 <h1>Where to?</h1>
             </div>
 
-            <form class="search-form">
-                <input type="search" value="" placeholder="Places to go, things to do, tour packages..." class="search-input"></input>
-                <button type="submit" class="search-button">
-                    <svg class="submit-button">
-                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#search"></use>
+            <form className="search-form" onSubmit={handleSearchSubmit}>
+                <input
+                    type="search"
+                    value={searchTerm}
+                    placeholder="Places to go, things to do, tour packages..."
+                    className="search-input"
+                    onChange={handleSearchChange}
+                />
+                <button type="submit" className="search-button">
+                    <svg className="submit-button">
+                        <use xmlnsXlink="http://www.w3.org/1999/xlink" xlinkHref="#search"></use>
                     </svg>
                 </button>
-                <div class="search-option"></div>
+
+                <button type="submit" className="search-now">
+                    <h2 className="search-text">search</h2>
+                </button>
             </form>
 
             <svg xmlns="http://www.w3.org/2000/svg" width="0" height="0" display="none">

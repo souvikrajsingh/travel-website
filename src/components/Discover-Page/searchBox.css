@@ -1,6 +1,4 @@
-*,
-*::before,
-*::after {
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -29,10 +27,12 @@
 
 .search-form {
     position: relative;
+    display: flex;
     top: 50%;
     left: 50%;
-    width: 550px;
-    height: 50px;
+    width: 650px;
+    height: 60px;
+    border: 1px solid #7575754e;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 3px 0px;
     transform: translate(-50%, -50%);
     background: none;
@@ -45,11 +45,13 @@
 }
 
 .search-input {
+    display: flex;
     text-align: start;
+    align-items: center;
     font-size: 16px;
     line-height: 18px;
     position: absolute;
-    top: 16px;
+    top: 20px;
     left: 38px;
     background: none;
     color: #757575;
@@ -59,6 +61,7 @@
     appearance: none;
     outline: none;
     letter-spacing: normal;
+    margin-left: 5px;
 }
 
 .search-input::-webkit-search-cancel-button {
@@ -67,7 +70,8 @@
 
 .search-button {
     position: absolute;
-    top: 10px;
+    align-items: center;
+    top: 20px;
     left: 15px;
     height: 20px;
     width: 20px;
@@ -77,10 +81,28 @@
     background: none;
     outline: none !important;
     cursor: pointer;
+    margin-left: 2px;
 }
 
 .search-button svg {
     width: 20px;
     height: 20px;
     fill: #5a6674;
+}
+
+.search-now {
+    position: absolute;
+    display: flex;
+    top: 5.55px;
+    left: 552px;
+    width: 90px;
+    height: 48px;
+    background-color: greenyellow;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+.search-now>.search-text {
+    margin: auto;
+    color: black;
 }
