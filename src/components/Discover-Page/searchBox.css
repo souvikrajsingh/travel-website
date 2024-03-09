@@ -7,7 +7,7 @@
 
 .where {
     text-align: center;
-    padding-bottom: 2rem;
+    padding-bottom: 3rem;
 }
 
 .where>h1 {
@@ -105,4 +105,13 @@
 .search-now>.search-text {
     margin: auto;
     color: black;
+}
+
+.openingPic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15rem;
+    margin-top: 30px;
+    padding: 30px;
 }
