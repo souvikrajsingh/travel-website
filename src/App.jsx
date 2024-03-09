@@ -3,7 +3,6 @@ import MuiButton from "./components/MuiButton"
 import Footer from "./components/Footer";
 import Animation from "./components/Discover-Page/Animation";
 import SearchBox from "./components/Discover-Page/SearchBox";
-import ImageCarousel from "./components/Discover-Page/ImageCarousel";
 import CardSlick from "./components/Discover-Page/CardSlick";
 
 function App() {
@@ -12,8 +11,7 @@ function App() {
       <Navbar />
       <Animation />
       <SearchBox />
-      {/* <ImageCarousel />
-      <CardSlick /> */}
+      <CardSlick />
       {Display()}
       <Footer />
     </>

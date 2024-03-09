@@ -1,28 +1,45 @@
-/* .slider-container {
+
+:root {
+    font-family: "Trip Sans VF", "Trip Sans", Arial, sans-serif;
+}
+
+.slider-container {
+    margin: auto;
+    margin-top: 100px;
     width: 80%;
-    margin: 0;
-} */
+    padding-top: 50px;
+}
+
+.slider-container>h1 {
+    text-align: start;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: normal;
+    color: black;
+    background: white;
+    padding: 6px;
+}
+
+.slider-container>p {
+    text-align: start;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: normal;
+    color: black;
+    background: white;
+    padding: 6px;
+}
 
 .card-slick {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-    border: 3px solid #56be7e;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin: 0 10px;
-    background-color: #fff;
+    text-align: center;
+    overflow: hidden;
+    padding: 10px;
 }
 
 .card-slick img {
-    max-width: 100%;
+    width: 100%;
     height: auto;
-    border-radius: 8px;
-    margin-bottom: 10px;
+    border-radius: 10px;
 }
 
-.card-slick h3 {
-    font-size: 18px;
-    margin: 0;
-}
