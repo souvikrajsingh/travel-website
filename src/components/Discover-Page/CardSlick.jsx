@@ -32,12 +32,12 @@ function CardSlick() {
     const settings = {
         dots: true,
         infinite: true,
-        slidesToShow: 3,
+        slidesToShow: 4,
         slidesToScroll: 1,
         nextArrow: <SampleNextArrow />,
         prevArrow: <SamplePrevArrow />,
         autoplay: true,
-        autoplaySpeed: 2000,
+        autoplaySpeed: 3000,
         pauseOnHover: true
     };
     return (
@@ -46,60 +46,112 @@ function CardSlick() {
             <p>Find yourself awestruct with this year's most popular destinations</p>
 
             <Slider {...settings}>
+
                 <div className="card-slick">
                     <div className="imgCarousel">
                         <ImageCarousel />
                     </div>
+
                     <div className="details">
-                        <h1>title</h1>
-                        <p>description</p>
+                        <div className="head-sec">
+                            <div className="duration">⏳7 days & 6 nights</div>
+                            <div className="location">🪧Japan</div>
+                        </div>
+
+                        <div className="title">Japan's Onsen Paradise</div>
+                        <div className="review">⭐⭐⭐⭐ (599)</div>
+
+                        <div className="foot-sec">
+                            <div className="p-text">starting from</div>
+                            <div className="price"> INR 1,000,00</div>
+                        </div>
                     </div>
                 </div>
+
                 <div className="card-slick">
                     <div className="imgCarousel">
                         <ImageCarousel />
                     </div>
+
                     <div className="details">
-                        <h1>title</h1>
-                        <p>description</p>
+                        <div className="head-sec">
+                            <div className="duration">⏳7 days & 6 nights</div>
+                            <div className="location">🪧Japan</div>
+                        </div>
+
+                        <div className="title">Japan's Onsen Paradise</div>
+                        <div className="review">⭐⭐⭐⭐ (599)</div>
+
+                        <div className="foot-sec">
+                            <div className="p-text">starting from</div>
+                            <div className="price"> INR 1,000,00</div>
+                        </div>
                     </div>
                 </div>
+
                 <div className="card-slick">
                     <div className="imgCarousel">
                         <ImageCarousel />
                     </div>
+
                     <div className="details">
-                        <h1>title</h1>
-                        <p>description</p>
+                        <div className="head-sec">
+                            <div className="duration">⏳7 days & 6 nights</div>
+                            <div className="location">🪧Japan</div>
+                        </div>
+
+                        <div className="title">Japan's Onsen Paradise</div>
+                        <div className="review">⭐⭐⭐⭐ (599)</div>
+
+                        <div className="foot-sec">
+                            <div className="p-text">starting from</div>
+                            <div className="price"> INR 1,000,00</div>
+                        </div>
                     </div>
                 </div>
+
                 <div className="card-slick">
                     <div className="imgCarousel">
                         <ImageCarousel />
                     </div>
+
                     <div className="details">
-                        <h1>title</h1>
-                        <p>description</p>
+                        <div className="head-sec">
+                            <div className="duration">⏳7 days & 6 nights</div>
+                            <div className="location">🪧Japan</div>
+                        </div>
+
+                        <div className="title">Japan's Onsen Paradise</div>
+                        <div className="review">⭐⭐⭐⭐ (599)</div>
+
+                        <div className="foot-sec">
+                            <div className="p-text">starting from</div>
+                            <div className="price"> INR 1,000,00</div>
+                        </div>
                     </div>
                 </div>
+
                 <div className="card-slick">
                     <div className="imgCarousel">
                         <ImageCarousel />
                     </div>
+
                     <div className="details">
-                        <h1>title</h1>
-                        <p>description</p>
+                        <div className="head-sec">
+                            <div className="duration">⏳7 days & 6 nights</div>
+                            <div className="location">🪧Japan</div>
+                        </div>
+
+                        <div className="title">Japan's Onsen Paradise</div>
+                        <div className="review">⭐⭐⭐⭐ (599)</div>
+
+                        <div className="foot-sec">
+                            <div className="p-text">starting from</div>
+                            <div className="price"> INR 1,000,00</div>
+                        </div>
                     </div>
                 </div>
-                <div className="card-slick">
-                    <div className="imgCarousel">
-                        <ImageCarousel />
-                    </div>
-                    <div className="details">
-                        <h1>title</h1>
-                        <p>description</p>
-                    </div>
-                </div>
+
             </Slider>
         </div>
     );
