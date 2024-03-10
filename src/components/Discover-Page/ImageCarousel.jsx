@@ -45,18 +45,19 @@ function Carousel({
                     <img key={index} src={img} alt={`slide-${index + 1}`} />
                 ))}
             </div>
+
             <div className="absolute inset-0 flex items-center justify-between p-4">
                 <button
                     onClick={prev}
-                    className="p-1 rounded-full shadow bg-white/80 text-gray-800 hover:bg-white"
+                    className="p-1 rounded-full shadow bg-white/80 text-gray-800 hover:bg-white transition-all"
                 >
-                    <ChevronLeft size={40} />
+                    <ChevronLeft size={15} />
                 </button>
                 <button
                     onClick={next}
-                    className="p-1 rounded-full shadow bg-white/80 text-gray-800 hover:bg-white"
+                    className="p-1 rounded-full shadow bg-white/80 text-gray-800 hover:bg-white transition-all"
                 >
-                    <ChevronRight size={40} />
+                    <ChevronRight size={15} />
                 </button>
             </div>
 
@@ -66,13 +67,14 @@ function Carousel({
                         <div
                             key={i}
                             className={`
-                                transition-all w-3 h-3 bg-white rounded-full
-                                ${curr === i ? "p-2" : "bg-opacity-50"}
+                                transition-all w-1 h-1 bg-white rounded-full
+                                ${curr === i ? "p-0" : "bg-opacity-50"}
                             `}
                         />
                     ))}
                 </div>
             </div>
+
         </div>
     );
 }

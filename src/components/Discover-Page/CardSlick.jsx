@@ -11,13 +11,7 @@ function SampleNextArrow(props) {
     return (
         <div
             className={`${className} custom-arrow next-arrow`}
-            style={{
-                ...style,
-                display: "block",
-                background: "#75757535",
-                borderRadius: "50%",
-                cursor: "pointer",
-            }}
+            style={style}
             onClick={onClick}
         />
     );
@@ -28,18 +22,11 @@ function SamplePrevArrow(props) {
     return (
         <div
             className={`${className} custom-arrow prev-arrow`}
-            style={{
-                ...style,
-                display: "block",
-                background: "#75757535",
-                borderRadius: "50%",
-                cursor: "pointer",
-            }}
+            style={style}
             onClick={onClick}
         />
     );
 }
-
 
 function CardSlick() {
     const settings = {
@@ -55,44 +42,49 @@ function CardSlick() {
     };
     return (
         <div className="slider-container">
-                <h1>This year's most popular ✨</h1>
-                <p>Find yourself awestruct with this year's most popular destinations</p>
+            <h1>This year's most popular ✨</h1>
+            <p>Find yourself awestruct with this year's most popular destinations</p>
 
             <Slider {...settings}>
                 <div className="card-slick">
-                    <img src="https://images.pexels.com/photos/1829980/pexels-photo-1829980.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"></img>
+                    <div className="imgCarousel">
+                        <ImageCarousel />
+                    </div>
                     <div>
-
+                        <h1>titles</h1>
+                        <p>description</p>
                     </div>
                 </div>
                 <div className="card-slick">
-                    <img src="https://images.pexels.com/photos/402028/pexels-photo-402028.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"></img>
+                    <div className="imgCarousel">
+                        <ImageCarousel />
+                    </div>
                     <div>
-                        
+
                     </div>
                 </div>
                 <div className="card-slick">
                     <img src="https://images.pexels.com/photos/1440476/pexels-photo-1440476.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"></img>
                     <div>
-                        
+
                     </div>
                 </div>
                 <div className="card-slick">
                     <img src="https://images.pexels.com/photos/2187605/pexels-photo-2187605.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"></img>
                     <div>
-                        
+
                     </div>
                 </div>
                 <div className="card-slick">
                     <img src="https://images.pexels.com/photos/1822605/pexels-photo-1822605.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"></img>
                     <div>
-                        
+
                     </div>
                 </div>
                 <div className="card-slick">
                     <img src="https://images.pexels.com/photos/1108701/pexels-photo-1108701.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"></img>
                     <div>
-                        
+
                     </div>
                 </div>
             </Slider>

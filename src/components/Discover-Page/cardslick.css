@@ -1,4 +1,3 @@
-
 :root {
     font-family: "Trip Sans VF", "Trip Sans", Arial, sans-serif;
 }
@@ -40,6 +39,18 @@
 .card-slick img {
     width: 100%;
     height: auto;
-    border-radius: 10px;
+    border-radius: 20px;
+}
+
+.custom-arrow {
+    display: block;
+    border-radius: 50%;
+    cursor: pointer;
+    background: #75757534;
+    transition: background 0.3s ease;
+}
+
+.custom-arrow:hover {
+    background: #e8cdcdc0;
 }
 
