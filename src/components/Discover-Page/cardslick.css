@@ -6,7 +6,7 @@
     margin: auto;
     margin-top: 100px;
     width: 80%;
-    padding-top: 50px;
+    padding-top: 40px;
 }
 
 .slider-container>h1 {
@@ -46,7 +46,7 @@
     display: block;
     border-radius: 50%;
     cursor: pointer;
-    background: #75757534;
+    background: #89898955;
     transition: background 0.3s ease;
 }
 
@@ -54,3 +54,15 @@
     background: #e8cdcdc0;
 }
 
+.prev-arrow {
+    left: -40px;
+}
+
+.next-arrow {
+    right: -40px;
+}
+
+.details {
+    background-color: aliceblue;
+    border-radius: 20px;
+}

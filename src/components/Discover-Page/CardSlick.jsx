@@ -50,8 +50,8 @@ function CardSlick() {
                     <div className="imgCarousel">
                         <ImageCarousel />
                     </div>
-                    <div>
-                        <h1>titles</h1>
+                    <div className="details">
+                        <h1>title</h1>
                         <p>description</p>
                     </div>
                 </div>
@@ -59,32 +59,45 @@ function CardSlick() {
                     <div className="imgCarousel">
                         <ImageCarousel />
                     </div>
-                    <div>
-
+                    <div className="details">
+                        <h1>title</h1>
+                        <p>description</p>
                     </div>
                 </div>
                 <div className="card-slick">
-                    <img src="https://images.pexels.com/photos/1440476/pexels-photo-1440476.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"></img>
-                    <div>
-
+                    <div className="imgCarousel">
+                        <ImageCarousel />
+                    </div>
+                    <div className="details">
+                        <h1>title</h1>
+                        <p>description</p>
                     </div>
                 </div>
                 <div className="card-slick">
-                    <img src="https://images.pexels.com/photos/2187605/pexels-photo-2187605.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"></img>
-                    <div>
-
+                    <div className="imgCarousel">
+                        <ImageCarousel />
+                    </div>
+                    <div className="details">
+                        <h1>title</h1>
+                        <p>description</p>
                     </div>
                 </div>
                 <div className="card-slick">
-                    <img src="https://images.pexels.com/photos/1822605/pexels-photo-1822605.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"></img>
-                    <div>
-
+                    <div className="imgCarousel">
+                        <ImageCarousel />
+                    </div>
+                    <div className="details">
+                        <h1>title</h1>
+                        <p>description</p>
                     </div>
                 </div>
                 <div className="card-slick">
-                    <img src="https://images.pexels.com/photos/1108701/pexels-photo-1108701.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"></img>
-                    <div>
-
+                    <div className="imgCarousel">
+                        <ImageCarousel />
+                    </div>
+                    <div className="details">
+                        <h1>title</h1>
+                        <p>description</p>
                     </div>
                 </div>
             </Slider>
