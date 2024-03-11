@@ -1,27 +1,14 @@
 import React, { useState, useEffect } from "react";
+import './cardslick.css';
+
+// Importing react-feather icons
 import { ChevronLeft, ChevronRight } from "react-feather";
 
-import img1 from './Banners/image1.jpg';
-import img2 from './Banners/image2.jpg';
-import img3 from './Banners/image3.jpg';
+// Import Data.js here
+import Data from "./Props/Data";
 
-// Component for the image carousel
-export default function ImageCarousel() {
-    // Array of image URLs
-    const slides = [img1, img2, img3];
 
-    return (
-        <div className="relative">
-            <div className="max-w-lg">
-                {/* Render the carousel with specified settings */}
-                <Carousel autoSlide={false} autoSlideInterval={3000} slides={slides} />
-            </div>
-        </div>
-    );
-}
-
-// Carousel component that displays a set of images
-function Carousel({
+function ImageCarousel({
     autoSlide = false,
     autoSlideInterval = 3000,
     slides,
@@ -92,6 +79,45 @@ function Carousel({
                             `}
                         />
                     ))}
+                </div>
+            </div>
+        </div>
+    );
+}
+
+
+// CardEntry component
+export default function CardEntry(props) {
+
+    // Use the first set of images from the current object in Data
+    const data = Data[props.index];
+
+    // Check if the data is available before using it
+    if (!data) {
+        console.error(`Data not found for index ${props.index}`);
+        return null; // or handle the error accordingly
+    }
+
+    const slides = [data.img1, data.img2, data.img3];
+
+    return (
+        <div className="card-slick">
+            <div className="imgCarousel">
+                <ImageCarousel slides={slides} />
+            </div>
+
+            <div className="details">
+                <div className="head-sec">
+                    <div className="duration">{data.duration}</div>
+                    <div className="location">{data.location}</div>
+                </div>
+
+                <div className="title">{data.title}</div>
+                <div className="review">{data.review}</div>
+
+                <div className="foot-sec">
+                    <div className="p-text">starting from</div>
+                    <div className="price">{data.price}</div>
                 </div>
             </div>
         </div>
