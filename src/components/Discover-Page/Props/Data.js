@@ -38,9 +38,9 @@ const Data = [
     {
         id: 4,
         index: [3],
-        img1: "https://images.pexels.com/photos/402031/pexels-photo-402031.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        img2: "https://images.pexels.com/photos/1440479/pexels-photo-1440479.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        img3: "https://images.pexels.com/photos/1108704/pexels-photo-1108704.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        img1: "https://images.pexels.com/photos/286076/pexels-photo-286076.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        img2: "https://images.pexels.com/photos/4451508/pexels-photo-4451508.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        img3: "https://images.pexels.com/photos/1486222/pexels-photo-1486222.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         duration: "⏳7 days & 6 nights",
         location: "🪧New York",
         title: "NYC Explorations | The Big Apple",

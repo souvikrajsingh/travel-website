@@ -1,6 +1,6 @@
 import React from "react";
 import Slider from "react-slick";
-// import './cardslick.css';
+import './cardslick.css';
 import CardEntry from "./CardEntry";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -10,8 +10,14 @@ function SampleNextArrow(props) {
     const { className, style, onClick } = props;
     return (
         <div
-            className={`${className} custom-arrow next-arrow`}
-            style={style}
+            className={className}
+            style={{
+                ...style,
+                display: "block",
+                background: "#7a7a7a45",
+                right: "-40px",
+                borderRadius: "50%",
+            }}
             onClick={onClick}
         />
     );
@@ -21,8 +27,14 @@ function SamplePrevArrow(props) {
     const { className, style, onClick } = props;
     return (
         <div
-            className={`${className} custom-arrow prev-arrow`}
-            style={style}
+            className={className}
+            style={{
+                ...style,
+                display: "block",
+                background: "#7a7a7a45",
+                left: "-40px",
+                borderRadius: "50%",
+            }}
             onClick={onClick}
         />
     );
@@ -63,7 +75,7 @@ function CardSlick() {
                         price={entry.price}
                     />
                 ))}
-                
+
             </Slider>
         </div>
     );

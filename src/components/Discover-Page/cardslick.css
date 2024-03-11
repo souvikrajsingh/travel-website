@@ -34,7 +34,6 @@
 
 .card-slick {
     display: block;
-    
     text-align: center;
     overflow: hidden;
     padding: 10px;
@@ -43,7 +42,6 @@
     cursor: pointer;
     transition: transform 0.4s ease;
     background-color: white;
-    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px; */
 }
 
 .card-slick:hover {
@@ -52,28 +50,7 @@
 
 img {
     border-radius: 15px;
-}
-
-/* .imgCarousel {
-} */
-
-.custom-arrow {
-    color: #515151;
-    border-radius: 50%;
-    cursor: pointer;
-    transition: background 0.3s ease;
-}
-
-.custom-arrow:hover {
-    background: #e8cdcd;
-}
-
-.prev-arrow {
-    left: -40px;
-}
-
-.next-arrow {
-    right: -40px;
+    aspect-ratio: 3/2;
 }
 
 .details {
