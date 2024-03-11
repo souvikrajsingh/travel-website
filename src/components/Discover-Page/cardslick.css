@@ -7,6 +7,7 @@
 .slider-container {
     margin: auto;
     width: 80%;
+    height: 50%;
     margin-top: 100px;
     margin-bottom: 80px;
 }
@@ -34,23 +35,28 @@
 
 .card-slick {
     display: block;
+    margin: 5px;
     text-align: center;
     overflow: hidden;
     padding: 10px;
     border: #51515128 solid 1px;
     border-radius: 15px;
     cursor: pointer;
-    transition: transform 0.4s ease;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
     background-color: white;
 }
 
 .card-slick:hover {
-    transform: scale(0.98);
+    box-shadow: rgba(50, 50, 93, 0.09) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 
 img {
     border-radius: 15px;
     aspect-ratio: 3/2;
+}
+
+.imgCarousel {
+    padding: 3px;
 }
 
 .details {
