@@ -4,11 +4,7 @@ import { ChevronRight } from 'lucide-react'
 function Copyright() {
     const year = new Date().getFullYear();
     return (
-        <>
-            <footer>
-                <p>Copyright ⓒ {year}</p>
-            </footer>
-        </>
+        <p>Copyright ⓒ {year}</p>
     );
 }
 
@@ -52,17 +48,16 @@ function Footer() {
                 </div>
                 <hr className="my-5" />
 
-            </footer>,
+            </footer>
 
             <div className="flex flex-col justify-end items-center">
                 <div className="mb-6 text-gray-400 font-medium">
-                    {Copyright()}
+                    <Copyright />
                 </div>
             </div>
 
         </>
     )
 }
-
 
 export default Footer;

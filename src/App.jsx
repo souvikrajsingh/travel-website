@@ -7,7 +7,6 @@ import CardSlick from "./components/Discover-Page/First-slide-section/CardSlick"
 import Mountains from "./components/Discover-Page/Mountain-packages/Mountains";
 import Beach from "./components/Discover-Page/BestBeaches/Beach";
 import offer1 from './components/Discover-Page/Banners/offerPoster1.png';
-import offer2 from './components/Discover-Page/Banners/offer-poster.png';
 import './index.css';
 
 function App() {
@@ -20,18 +19,16 @@ function App() {
       <Mountains />
       <Beach />
       {OfferBanner()}
-      {Display()}
       <Footer />
     </>
   );
 }
 
-function OfferBanner (){
-  return(
-      <div className="offer-container">
-        <img src={offer1} alt="offer poster1" className="offer-image1"></img>
-        <img src={offer2} alt="offer poster2" className="offer-image2"></img>
-      </div>
+function OfferBanner() {
+  return (
+    <div className="offer-container">
+      <img src={offer1} alt="offer poster1" className="offer-image1" />
+    </div>
   );
 }
 
