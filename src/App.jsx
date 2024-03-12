@@ -3,7 +3,7 @@ import MuiButton from "./components/MuiButton"
 import Footer from "./components/Footer";
 import Animation from "./components/Discover-Page/Animation";
 import SearchBox from "./components/Discover-Page/SearchBox";
-import CardSlick from "./components/Discover-Page/CardSlick";
+import CardSlick from "./components/Discover-Page/First-slide-section/CardSlick";
 
 function App() {
   return (

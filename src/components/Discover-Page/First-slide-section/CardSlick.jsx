@@ -4,7 +4,7 @@ import './cardslick.css';
 import CardEntry from "./CardEntry";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Data from "./Props/Data";
+import Data from "./Data";
 
 function SampleNextArrow(props) {
     const { className, style, onClick } = props;

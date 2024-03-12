@@ -5,7 +5,7 @@ import './cardslick.css';
 import { ChevronLeft, ChevronRight } from "react-feather";
 
 // Import Data.js here
-import Data from "./Props/Data";
+import Data from "./Data";
 
 
 function ImageCarousel({

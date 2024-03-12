@@ -18,7 +18,7 @@
     content: '';
     position: absolute;
     bottom: 0;
-    left: 0;
+    /* left: 0; */
     height: 200px;
     width: 100%;
     background: linear-gradient(to top, #fff, transparent);
@@ -28,8 +28,9 @@
 #man {
     top: inherit;
     bottom: 0;
-    left: -30px;
+    left: -20px;
 }
+
 
 .top img {
     position: absolute;
@@ -45,5 +46,6 @@
     position: relative;
     color: white;
     font-size: 10rem;
+    left: 10px;
 }
 
