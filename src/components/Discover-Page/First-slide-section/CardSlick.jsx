@@ -2,7 +2,7 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import './cardslick.css';
+import '../Zcommon.css';
 import CardEntry from "./CardEntry";
 import Data from "./Data";
 

@@ -5,7 +5,7 @@ import '../Zcommon.css';
 import { ChevronLeft, ChevronRight } from "react-feather";
 
 // Import Data.js here
-import Data from "./Data";
+import Bdata from "./Bdata";
 
 
 function ImageCarousel({
@@ -87,10 +87,10 @@ function ImageCarousel({
 
 
 // CardEntry component
-export default function CardEntry(props) {
+export default function BEntry(props) {
 
     // Use the first set of images from the current object in Data
-    const data = Data[props.index];
+    const data = Bdata[props.index];
 
     // Check if the data is available before using it
     if (!data) {

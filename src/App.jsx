@@ -5,6 +5,7 @@ import Animation from "./components/Discover-Page/Animation";
 import SearchBox from "./components/Discover-Page/SearchBox";
 import CardSlick from "./components/Discover-Page/First-slide-section/CardSlick";
 import Mountains from "./components/Discover-Page/Mountain-packages/Mountains";
+import Beach from "./components/Discover-Page/BestBeaches/Beach";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <SearchBox />
       <CardSlick />
       <Mountains />
+      <Beach />
       {Display()}
       <Footer />
     </>

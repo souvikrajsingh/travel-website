@@ -3,8 +3,8 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import '../Zcommon.css';
-import MEntry from "./MEntry";
-import Mdata from "./Mdata";
+import BEntry from "./BEntry";
+import Bdata from "./Bdata";
 
 function SampleNextArrow(props) {
     const { className, style, onClick } = props;
@@ -40,7 +40,7 @@ function SamplePrevArrow(props) {
     );
 }
 
-export default function Mountains() {
+export default function Beach() {
     const settings = {
         dots: true,
         infinite: true,
@@ -55,14 +55,14 @@ export default function Mountains() {
 
     return (
         <div className="slider-container">
-            <h1>Best Mountain Packages ✨</h1>
-            <p>Find yourself awestruck with these best mountain packages</p>
+            <h1>Best Beaches This Year ✨</h1>
+            <p>Find yourself awestruck with these best Beach packages</p>
 
             <Slider {...settings}>
 
                 {/* Map through the data from the Data file and create entries */}
-                {Mdata.map((entry) => (
-                    <MEntry
+                {Bdata.map((entry) => (
+                    <BEntry
                         key={entry.id}
                         index={entry.index}
                         img1={entry.img1}

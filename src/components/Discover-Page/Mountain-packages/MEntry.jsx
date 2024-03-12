@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import './mountains.css';
+import '../Zcommon.css';
 
 // Importing react-feather icons
 import { ChevronLeft, ChevronRight } from "react-feather";
