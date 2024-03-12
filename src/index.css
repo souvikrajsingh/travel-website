@@ -3,3 +3,24 @@
 @tailwind utilities;
 
 
+.offer-container {
+    display: flex;
+    width: 80vw;
+    height: 60vh;
+    margin: 0 auto;
+    aspect-ratio: unset;
+}
+
+.offer-image1 {
+    width: 70%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 150px;
+}
+
+.offer-image2 {
+    margin: 10px;
+    width: 30%;
+    height: 100%;
+    object-fit: contain;
+}

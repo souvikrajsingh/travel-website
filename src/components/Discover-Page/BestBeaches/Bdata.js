@@ -19,7 +19,7 @@ const Bdata = [
         img3: "https://images.pexels.com/photos/3373713/pexels-photo-3373713.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         duration: "⏳10 days & 9 nights",
         location: "🏖️ Fiji",
-        title: "Fiji Dream | Tropical Paradise",
+        title: "Fiji Dream | Tropical Paradise Experience",
         review: "⭐⭐⭐⭐⭐ (8743)",
         price: "INR 220,000"
     },
