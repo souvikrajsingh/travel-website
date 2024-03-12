@@ -3,19 +3,47 @@
 @tailwind utilities;
 
 
-
 .offer-container {
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 20vh;
-    margin-bottom: 15vh;
+    margin-bottom: 20vh;
 }
 
 .offer-image1 {
-    display: flex;
     width: 72vw;
     height: 70vh;
     box-shadow: 5px 5px 0 0 rgba(65, 117, 5, 1), 10px 10px 0 0 rgba(65, 117, 5, 0.6), 15px 15px 0 0 rgba(65, 117, 5, 0.4), 20px 20px 0 0 rgba(65, 117, 5, 0.2), 25px 25px 0 0 rgba(65, 117, 5, 0.1);
+    z-index: 0;
+}
+
+.E-button {
+    position: absolute;
+    bottom: 76px;
+    left: 390px;
+    transform: translateX(-50%);
+    border: 1px solid #ffffff;
+    background: transparent;
+    color: #ffffff;
+    font-family: inherit;
+    padding: 16px 26px;
+    font-size: 16px;
+    border-radius: 40px;
+    cursor: pointer;
+    z-index: 1;
+    transition: transform 0.3s ease;
+}
+
+.E-button:hover {
+    color: #000000ea;
+    border: 1px solid #0000009d;
+    background: #ffffffb6;
+    box-shadow: 0px 0px 25px rgba(255, 255, 255, 0.449);
+}
+
+.E-text {
+    font-family: "Arial";
 }
 

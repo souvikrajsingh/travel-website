@@ -28,6 +28,11 @@ function OfferBanner() {
   return (
     <div className="offer-container">
       <img src={offer1} alt="offer poster1" className="offer-image1" />
+
+      <button className="E-button">
+        <p className="E-text">Explore Now</p>
+      </button>
+
     </div>
   );
 }

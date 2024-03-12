@@ -63,7 +63,7 @@ export default function SearchBox() {
                 </symbol>
             </svg>
 
-            <div>
+            <div className="pic-container">
                 <img className="openingPic" src={openingImage} alt='opening photo'></img>
             </div>
         </>
