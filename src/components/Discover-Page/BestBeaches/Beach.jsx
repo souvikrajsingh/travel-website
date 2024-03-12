@@ -48,7 +48,7 @@ export default function Beach() {
         slidesToScroll: 1,
         nextArrow: <SampleNextArrow />,
         prevArrow: <SamplePrevArrow />,
-        // autoplay: true,
+        autoplay: true,
         autoplaySpeed: 3000,
         pauseOnHover: true
     };
