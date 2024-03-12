@@ -2,9 +2,9 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import './cardslick.css';
-import CardEntry from "./CardEntry";
-import Data from "./Data";
+import './mountains.css';
+import MEntry from "./MEntry";
+import Mdata from "./Mdata";
 
 function SampleNextArrow(props) {
     const { className, style, onClick } = props;
@@ -40,7 +40,7 @@ function SamplePrevArrow(props) {
     );
 }
 
-export default function CardSlick() {
+export default function Mountains() {
     const settings = {
         dots: true,
         infinite: true,
@@ -48,21 +48,21 @@ export default function CardSlick() {
         slidesToScroll: 1,
         nextArrow: <SampleNextArrow />,
         prevArrow: <SamplePrevArrow />,
-        autoplay: true,
+        // autoplay: true,
         autoplaySpeed: 3000,
         pauseOnHover: true
     };
 
     return (
         <div className="slider-container">
-            <h1>This year's most popular ✨</h1>
-            <p>Find yourself awestruck with this year's most popular destinations</p>
+            <h1>Best Mountain Packages ✨</h1>
+            <p>Find yourself awestruck with these best mountain packages</p>
 
             <Slider {...settings}>
 
                 {/* Map through the data from the Data file and create entries */}
-                {Data.map((entry) => (
-                    <CardEntry
+                {Mdata.map((entry) => (
+                    <MEntry
                         key={entry.id}
                         index={entry.index}
                         img1={entry.img1}

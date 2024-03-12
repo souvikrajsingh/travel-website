@@ -4,6 +4,7 @@ import Footer from "./components/Footer";
 import Animation from "./components/Discover-Page/Animation";
 import SearchBox from "./components/Discover-Page/SearchBox";
 import CardSlick from "./components/Discover-Page/First-slide-section/CardSlick";
+import Mountains from "./components/Discover-Page/Mountain-packages/Mountains";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Animation />
       <SearchBox />
       <CardSlick />
+      <Mountains />
       {Display()}
       <Footer />
     </>
