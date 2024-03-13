@@ -6,13 +6,14 @@ import SearchBox from "./components/Discover-Page/SearchBox";
 import CardSlick from "./components/Discover-Page/First-slide-section/CardSlick";
 import Mountains from "./components/Discover-Page/Mountain-packages/Mountains";
 import Beach from "./components/Discover-Page/BestBeaches/Beach";
-import offer1 from './components/Discover-Page/Banners/offerPoster1.png';
 import Inational from "./components/Discover-Page/International/Inational";
 import Ptrek from "./components/Discover-Page/Popular-treks/Ptrek";
 import Review from './components/Discover-Page/Reviews/Review';
 import './index.css';
 
+import offer1 from './components/Discover-Page/Banners/offerPoster1.png';
 import videoFile from './components/Discover-Page/Banners/PromoVideo.mp4';
+import posterlast from './components/Discover-Page/Banners/offerPoster2.png';
 
 function App() {
   return (
@@ -26,7 +27,8 @@ function App() {
       {OfferBanner()}
       <Inational />
       <LocalVideo />
-      <Ptrek />
+      <Ptrek /> 
+      <Poster2 />
       <Review />
       <Footer />
     </>
@@ -53,6 +55,19 @@ function LocalVideo() {
         <source src={videoFile} type="video/mp4" />
         Your browser does not support the video tag.
       </video>
+    </div>
+  );
+}
+
+function Poster2() {
+  return (
+    <div className="poster-container">
+      <img src={posterlast} alt="offer poster2" className="last-poster" />
+
+      <button className="B-button">
+        <p className="B-text">Book Now</p>
+      </button>
+
     </div>
   );
 }
