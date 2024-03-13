@@ -7,7 +7,10 @@ import CardSlick from "./components/Discover-Page/First-slide-section/CardSlick"
 import Mountains from "./components/Discover-Page/Mountain-packages/Mountains";
 import Beach from "./components/Discover-Page/BestBeaches/Beach";
 import offer1 from './components/Discover-Page/Banners/offerPoster1.png';
+import Inational from "./components/Discover-Page/International/Inational";
+import Ptrek from "./components/Discover-Page/Popular-treks/Ptrek";
 import './index.css';
+
 
 function App() {
   return (
@@ -19,6 +22,8 @@ function App() {
       <Mountains />
       <Beach />
       {OfferBanner()}
+      <Inational />
+      <Ptrek />
       <Footer />
     </>
   );
