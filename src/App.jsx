@@ -8,7 +8,6 @@ import Mountains from "./components/Discover-Page/Mountain-packages/Mountains";
 import Beach from "./components/Discover-Page/BestBeaches/Beach";
 import Inational from "./components/Discover-Page/International/Inational";
 import Ptrek from "./components/Discover-Page/Popular-treks/Ptrek";
-import Review from './components/Discover-Page/Reviews/Review';
 import './index.css';
 
 import offer1 from './components/Discover-Page/Banners/offerPoster1.png';
@@ -29,7 +28,6 @@ function App() {
       <LocalVideo />
       <Ptrek /> 
       <Poster2 />
-      <Review />
       <Footer />
     </>
   );
