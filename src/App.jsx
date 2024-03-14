@@ -3,7 +3,7 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Animation from "./components/Discover-Page/Animation";
 import SearchBox from "./components/Discover-Page/SearchBox";
-import CardSlick from "./components/Discover-Page/First-slide-section/CardSlick";
+import CardSlick from "./components/Discover-Page/Popular-this-year/CardSlick";
 import Mountains from "./components/Discover-Page/Mountain-packages/Mountains";
 import Beach from "./components/Discover-Page/BestBeaches/Beach";
 import Inational from "./components/Discover-Page/International/Inational";

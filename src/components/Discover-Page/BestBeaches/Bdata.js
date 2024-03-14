@@ -2,9 +2,9 @@ const Bdata = [
     {
         id: 1,
         index: 0,
-        img1: "https://images.pexels.com/photos/15610234/pexels-photo-15610234/free-photo-of-boat-in-bay-in-goa-india.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        img2: "https://images.pexels.com/photos/3816807/pexels-photo-3816807.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        img3: "https://images.pexels.com/photos/4430307/pexels-photo-4430307.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        img1: "https://images.pexels.com/photos/7242464/pexels-photo-7242464.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        img2: "https://images.pexels.com/photos/4428286/pexels-photo-4428286.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        img3: "https://images.pexels.com/photos/4430322/pexels-photo-4430322.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         duration: "⏳7 days & 6 nights",
         location: "🏖️India",
         title: "Goa Beach",

@@ -68,7 +68,7 @@ const Idata = [
         duration: "⏳11 days & 10 nights",
         location: "🪧Bhutan",
         title: "Bhutan Bliss: Journey to the Kingdom in the Clouds",
-        review: "⭐⭐⭐⭐⭐ (8889)",
+        review: "⭐⭐⭐⭐⭐ (9889)",
         price: "INR 130,000"
     },
     {
@@ -80,7 +80,7 @@ const Idata = [
         duration: "⏳9 days & 8 nights",
         location: "🪧Nepal",
         title: "Himalayan Haven: Exploring Nepal's Majesty",
-        review: "⭐⭐⭐⭐⭐ (8889)",
+        review: "⭐⭐⭐⭐⭐ (5889)",
         price: "INR 110,000"
     },
     {
@@ -92,7 +92,7 @@ const Idata = [
         duration: "⏳11 days & 10 nights",
         location: "🪧Indonesia",
         title: "Island Euphoria: Exploring Indonesia's Diversity",
-        review: "⭐⭐⭐⭐⭐ (8889)",
+        review: "⭐⭐⭐⭐⭐ (3889)",
         price: "INR 340,000"
     },
 ];
