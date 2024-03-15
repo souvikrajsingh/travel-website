@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "../Navbar.jsx";
 import Footer from "../Footer.jsx";
 import './trips.css';
+import SearchBox from "../Discover-Page/SearchBox.jsx";
 
 import vidFile from './opening-video/hot-air-ballon.mp4';
 
@@ -22,6 +23,9 @@ function OpeningVideo(){
         <source src={vidFile} type="video/mp4" />
         Your browser does not support the video tag.
       </video>
+      <div className="search-bar">
+        {/* <SearchBox /> */}
+      </div>
       <div className="overlay"></div>
     </div>
   );

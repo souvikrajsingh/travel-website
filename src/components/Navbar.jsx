@@ -10,7 +10,7 @@ function Navbar() {
       <header className="bg-white fixed top-0 left-0 w-full pl-20 z-50 bg-opacity-60 backdrop-blur-lg" style={{ boxShadow: '-5px 9px 10px hsla(0,0%,78%,.25)' }}>
         <nav className="flex justify-between items-center w-[92%] mx-auto pt-3">
           <div className="flex items-center">
-            <img src={logo} alt="Logo" className="h-10 ml-2 mix-blend-darken" />
+            <img src={logo} alt="Logo" className="h-10 ml-2" />
             <span className="font-bold">
               <NavLink exact to="/" activeClassName="active-link">
                 TravelHikes
@@ -77,9 +77,7 @@ function Navbar() {
               </li>
             </ul>
           </div>
-          {/* <div className='flex '>
-            <FaSearch /><input className="pl-1" placeholder="Type to search" />
-          </div> */}
+          
           <div>
             <NavLink
               to="/Profile/Signin"
