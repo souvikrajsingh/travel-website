@@ -33,7 +33,7 @@ function Navbar() {
               </li>
               <li>
                 <NavLink
-                  to="/Explore"
+                  to="/Trips"
                   style={({ isActive, isPending, isTransitioning }) => {
                     return {
                       fontWeight: isActive ? "bold" : "",
@@ -42,7 +42,7 @@ function Navbar() {
                     };
                   }}
                 >
-                  Explore
+                  Trips
                 </NavLink>
               </li>
               <li>

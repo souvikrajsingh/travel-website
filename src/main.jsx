@@ -5,7 +5,7 @@ import App from './App.jsx';
 import Profile from './components/Profile-Page/Profile.jsx';
 import SignInCard from './components/Profile-Page/SignInCard.jsx';
 import SignUpCard from './components/Profile-Page/SignUpCard.jsx';
-import Explore from './components/Explore-Page/Explore.jsx';
+import Trips from './components/Trips-Page/Trips.jsx';
 import Treks from './components/Treks-Page/Treks.jsx';
 import BeGuide from './components/Be_a_Guide-Page/BeGuide.jsx';
 
@@ -21,10 +21,10 @@ const router = createBrowserRouter([
   },
 
   {
-    // Explore Page
-    path: '/Explore',
+    // Trips Page
+    path: '/Trips',
     element: (
-      <Explore />
+      <Trips />
     ),
   },
 
