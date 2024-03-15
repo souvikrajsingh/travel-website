@@ -6,8 +6,8 @@ import Buttons from "../components/Buttons.jsx";
 function Navbar() {
   return (
     <div>
-      <header className="bg-white">
-        <nav className="flex justify-between items-center w-[92%] mx-auto pt-4 font-montserat">
+      <header className="bg-white fixed top-0 left-0 w-full pl-20 z-50 bg-opacity-50 backdrop-blur-lg" style={{ boxShadow: '-5px 9px 10px hsla(0,0%,78%,.25)' }}>
+        <nav className="flex justify-between items-center w-[92%] mx-auto pt-3 font-montserat">
           <div>
             <span className="font-bold">
               <NavLink exact to="/" activeClassName="active-link">

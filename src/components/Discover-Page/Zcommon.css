@@ -1,7 +1,8 @@
 * {
     font-family: "Trip Sans VF", "Trip Sans", Arial, sans-serif;
-    border: 0;
+    box-sizing: border-box;
     margin: 0;
+    padding: 0;
 }
 
 .slider-container {
