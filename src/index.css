@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 
+
 .offer-container {
     position: relative;
     display: flex;
@@ -54,11 +55,6 @@
 .video-container video {
     max-width: 80%;
     border-radius: 35px;
-    /* box-shadow: 5px 5px 0px 0px rgba(80, 227, 194, 1),
-        10px 10px 0px 0px rgba(80, 227, 194, 0.6),
-        15px 15px 0px 0px rgba(80, 227, 194, 0.2),
-        20px 20px 0px 0px rgba(80, 227, 194, 0.1); */
-
     box-shadow: 0px 12px 28px 0px rgba(0, 0, 0, 0.2), 0px 2px 4px 0px rgba(0, 0, 0, 0.1), 0px 0px 0px 1px rgba(255, 255, 255, 0.05) inset;
 }
 
@@ -73,15 +69,15 @@
 .last-poster {
     width: 72vw;
     height: 70vh;
-    box-shadow: 0px 0px 0px 2px rgba(192, 102, 66, 0.821),
-        8px 8px 0px 0px rgba(192, 102, 66, 0.841);
+    /* box-shadow: 0px 0px 0px 2px rgba(192, 102, 66, 0.821), 8px 8px 0px 0px rgba(192, 102, 66, 0.841); */
     z-index: 0;
+    border: 5px solid #fff8de;
 }
 
 .B-button {
     position: absolute;
     bottom: 70px;
-    left: 220px;
+    left: 250px;
     transform: translateX(-50%);
     border: 2px solid #C06542;
     background: white;
@@ -100,4 +96,64 @@
     border: 2px solid #98624c;
     background: #ffffff9e;
     box-shadow: 0px 0px 25px rgb(255, 255, 255);
+}
+
+/* why choose us section */
+
+.why-choose-us-section {
+    margin: auto;
+    width: 70%;
+    padding-bottom: 40px;
+    border-bottom: #33333359 1px solid;
+}
+
+.section-title {
+    text-align: center;
+    color: #333;
+    margin-bottom: 4rem;
+    font-size: 2.2rem;
+    line-height: 25px;
+    font-weight: 600;
+    margin-bottom: 4rem;
+
+    /* background: linear-gradient(to bottom, #c8ffd4 0%, #fff8df 100%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent; */
+}
+
+.feature-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.feature-item {
+    flex: 0 0 calc(33.33% - 2rem);
+    border-radius: 20px;
+    padding: 2.5rem;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    margin-bottom: 2rem;
+    background: linear-gradient(#fff8dee4, white);
+}
+
+ /* #c8ffd48c */
+
+.feature-item h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.feature-item p {
+    font-size: 1rem;
+    color: #666;
+}
+
+.feature-item:hover {
+    transform: translateY(-1px);
+    box-shadow: -15px -15px 15px rgba(255, 255, 255, 0.2), 15px 15px 15px rgba(0, 0, 0, 0.1), inset -5px -5px 5px rgba(255, 255, 255, 0.2), inset 5px 5px 5px rgba(0, 0, 0, 0.1);
 }

@@ -38,8 +38,8 @@ const Idata = [
     {
         id: 4,
         index: 3,
-        img1: "https://images.pexels.com/photos/1842332/pexels-photo-1842332.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        img2: "https://images.pexels.com/photos/326699/pexels-photo-326699.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        img1: "https://images.pexels.com/photos/326699/pexels-photo-326699.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        img2: "https://images.pexels.com/photos/1842332/pexels-photo-1842332.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         img3: "https://images.pexels.com/photos/2434269/pexels-photo-2434269.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         duration: "⏳12 days & 11 nights",
         location: "🪧Singapore",

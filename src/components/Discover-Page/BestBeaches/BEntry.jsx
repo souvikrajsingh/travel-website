@@ -52,19 +52,20 @@ function ImageCarousel({
             <div className="absolute inset-0 flex items-center justify-between p-4">
                 <button
                     onClick={goToPrevSlide}
-                    className="p-1 rounded-full shadow bg-white/80 text-gray-800 hover:bg-white transition-all"
+                    className="p-1 rounded-full shadow bg-white bg-opacity-50 text-gray-800 hover:bg-white transition-all"
                 >
                     {/* ChevronLeft icon for the previous slide */}
                     <ChevronLeft size={15} />
                 </button>
                 <button
                     onClick={goToNextSlide}
-                    className="p-1 rounded-full shadow bg-white/80 text-gray-800 hover:bg-white transition-all"
+                    className="p-1 rounded-full shadow bg-white bg-opacity-50 text-gray-800 hover:bg-white transition-all"
                 >
                     {/* ChevronRight icon for the next slide */}
                     <ChevronRight size={15} />
                 </button>
             </div>
+
 
             {/* Bottom navigation dots indicating the current slide */}
             <div className="absolute bottom-4 right-0 left-0">
