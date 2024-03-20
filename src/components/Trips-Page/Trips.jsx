@@ -46,28 +46,33 @@ function OpeningVideo() {
   };
 
   return (
-    <div className="vid-container">
-      <video autoPlay muted loop className="video-background">
-        <source src={vidFile} type="video/mp4" />
-        Your browser does not support the video tag.
-      </video>
 
-      <h1 className="h-text">Board With TravelHikes</h1>
-      <p className="p-text">takes you anywhere..</p>
+    <div className="main-container">
+
+      <div className="tx-container">
+        <h2 className="h-text">Board With TravelHikes</h2>
+        <p className="p-text">takes you anywhere..</p>
+      </div>
 
       <div className="container-search-bar" onSubmit={handleSearchSubmit}>
         <input
           type="search"
           value={searchTerm}
-          placeholder="Where to ?.."
+          placeholder="Where to..?"
           className="drop-input"
           onChange={handleSearchChange}
         />
       </div>
 
-      
-
-      <div className="overlay"></div>
     </div>
+
+    // <div className="vid-container">
+    //   <video autoPlay muted loop className="video-background">
+    //     <source src={vidFile} type="video/mp4" />
+    //     Your browser does not support the video tag.
+    //   </video>
+
+    //   <div className="overlay"></div>
+    // </div>
   );
 }
