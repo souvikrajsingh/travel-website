@@ -52,16 +52,17 @@ function OpeningVideo() {
       <div className="tx-container">
         <h2 className="h-text">Board With TravelHikes</h2>
         <p className="p-text">takes you anywhere..</p>
-      </div>
 
-      <div className="container-search-bar" onSubmit={handleSearchSubmit}>
-        <input
-          type="search"
-          value={searchTerm}
-          placeholder="Where to..?"
-          className="drop-input"
-          onChange={handleSearchChange}
-        />
+        <div className="container-search-bar" onSubmit={handleSearchSubmit}>
+          <input
+            type="search"
+            value={searchTerm}
+            placeholder="Where to..?"
+            className="drop-input"
+            onChange={handleSearchChange}
+          />
+        </div>
+
       </div>
 
     </div>

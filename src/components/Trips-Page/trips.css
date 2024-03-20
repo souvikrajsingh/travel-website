@@ -21,20 +21,21 @@
 .main-container {
   position: relative;
   width: 100%;
-  height: 100vh;
-  margin: 0 auto;
-  background-image: url(forest-walk.mp4);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  background-image: url("https://images.pexels.com/photos/2166553/pexels-photo-2166553.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  aspect-ratio: 3/2;
+  background-size: contain;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* search-bar */
 
 .container-search-bar {
-  display: flex;
+  display: grid;
   justify-content: center;
   align-items: center;
+  margin-top: 15px;
 }
 
 .drop-input {
@@ -56,12 +57,15 @@
 /* text section */
 
 .tx-container {
-  display: flex;
+  display: grid;
   justify-content: center;
   align-items: center;
 }
 
 .h-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 4rem;
   font-weight: bolder;
   background-image: linear-gradient(to right, #FFD194, #D1913C);
@@ -72,9 +76,11 @@
 }
 
 .p-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 1.7rem;
   background-image: linear-gradient(to right, #ffefba, #ffffff);
-  background-image: url();
   -webkit-background-clip: text;
   -moz-background-clip: text;
   background-clip: text;
