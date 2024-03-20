@@ -11,7 +11,7 @@ function Navbar() {
         <nav className="flex justify-between items-center w-[92%] mx-auto pt-3">
           <div className="flex items-center">
             <img src={logo} alt="Logo" className="h-10 ml-2" />
-            <span className="font-bold bg-gradient-to-b from-green-900 to-white-100 bg-clip-text text-transparent">
+            <span className="font-bold bg-gradient-to-b from-yellow-600 to-green-900 bg-clip-text text-transparent">
               <NavLink exact to="/" activeClassName="active-link">
                 TravelHikes
               </NavLink>
