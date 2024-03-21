@@ -62,7 +62,7 @@
   align-items: center;
 }
 
-.h-text {
+.head-text {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -75,7 +75,7 @@
   -webkit-text-fill-color: transparent;
 }
 
-.p-text {
+.para-text {
   display: flex;
   justify-content: center;
   align-items: center;

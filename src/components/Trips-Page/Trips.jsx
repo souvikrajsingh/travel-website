@@ -50,8 +50,8 @@ function OpeningVideo() {
     <div className="main-container">
 
       <div className="tx-container">
-        <h2 className="h-text">Board With TravelHikes</h2>
-        <p className="p-text">takes you anywhere..</p>
+        <h2 className="head-text">Board With TravelHikes</h2>
+        <p className="para-text">takes you anywhere..</p>
 
         <div className="container-search-bar" onSubmit={handleSearchSubmit}>
           <input
