@@ -1,7 +1,5 @@
 const Pdata = [
     {
-        id: 1,
-        index: 0,
         img1: "https://images.pexels.com/photos/4185836/pexels-photo-4185836.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         img2: "https://images.pexels.com/photos/14778130/pexels-photo-14778130.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         img3: "https://images.pexels.com/photos/6642124/pexels-photo-6642124.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
@@ -12,10 +10,8 @@ const Pdata = [
         price: "INR 85,000"
     },
     {
-        id: 2,
-        index: 1,
-        img1: "https://images.pexels.com/photos/3596102/pexels-photo-3596102.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        img2: "https://images.pexels.com/photos/347145/pexels-photo-347145.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        img1: "https://images.pexels.com/photos/347145/pexels-photo-347145.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        img2: "https://images.pexels.com/photos/3596102/pexels-photo-3596102.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         img3: "https://images.pexels.com/photos/15015528/pexels-photo-15015528/free-photo-of-fuji-mountain-in-winter-japan.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         duration: "⏳5 days & 4 nights",
         location: "🪧Japan",
@@ -24,8 +20,6 @@ const Pdata = [
         price: "INR 45,000"
     },
     {
-        id: 3,
-        index: 2,
         img1: "https://images.pexels.com/photos/6876404/pexels-photo-6876404.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         img2: "https://images.pexels.com/photos/16854265/pexels-photo-16854265/free-photo-of-two-people-walking-down-a-dirt-road-with-a-backpack.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         img3: "https://images.pexels.com/photos/6416033/pexels-photo-6416033.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
@@ -36,8 +30,6 @@ const Pdata = [
         price: "INR 35,000"
     },
     {
-        id: 4,
-        index: 3,
         img1: "https://images.pexels.com/photos/9982525/pexels-photo-9982525.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         img2: "https://images.pexels.com/photos/14038834/pexels-photo-14038834.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         img3: "https://images.pexels.com/photos/13390818/pexels-photo-13390818.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
@@ -48,8 +40,6 @@ const Pdata = [
         price: "INR 25,000"
     },
     {
-        id: 5,
-        index: 4,
         img1: "https://images.pexels.com/photos/12726408/pexels-photo-12726408.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         img2: "https://images.pexels.com/photos/2445656/pexels-photo-2445656.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         img3: "https://images.pexels.com/photos/3930029/pexels-photo-3930029.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",

@@ -61,10 +61,10 @@ export default function Beach() {
             <Slider {...settings}>
 
                 {/* Map through the data from the Data file and create entries */}
-                {Bdata.map((entry) => (
+                {Bdata.map((entry, index) => (
                     <BEntry
-                        key={entry.id}
-                        index={entry.index}
+                        key={index}
+                        index={index}
                         img1={entry.img1}
                         img2={entry.img2}
                         img3={entry.img3}

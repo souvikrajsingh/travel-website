@@ -61,10 +61,10 @@ function Inational() {
             <Slider {...settings}>
 
                 {/* Map through the data from the Data file and create entries */}
-                {Idata.map((entry) => (
+                {Idata.map((entry, index) => (
                     <IEntry
-                        key={entry.id}
-                        index={entry.index}
+                        key={index}
+                        index={index}
                         img1={entry.img1}
                         img2={entry.img2}
                         img3={entry.img3}

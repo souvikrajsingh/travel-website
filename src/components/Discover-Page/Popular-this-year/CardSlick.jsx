@@ -61,10 +61,10 @@ export default function CardSlick() {
             <Slider {...settings}>
 
                 {/* Map through the data from the Data file and create entries */}
-                {Data.map((entry) => (
+                {Data.map((entry, index) => (
                     <CardEntry
-                        key={entry.id}
-                        index={entry.index}
+                        key={index}
+                        index={index}
                         img1={entry.img1}
                         img2={entry.img2}
                         img3={entry.img3}

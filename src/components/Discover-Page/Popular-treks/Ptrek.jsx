@@ -61,10 +61,10 @@ export default function Ptrek() {
             <Slider {...settings}>
 
                 {/* Map through the data from the Data file and create entries */}
-                {Pdata.map((entry) => (
+                {Pdata.map((entry, index) => (
                     <PEntry
-                        key={entry.id}
-                        index={entry.index}
+                        key={index}
+                        index={index}
                         img1={entry.img1}
                         img2={entry.img2}
                         img3={entry.img3}

@@ -61,10 +61,10 @@ export default function Mountains() {
             <Slider {...settings}>
 
                 {/* Map through the data from the Data file and create entries */}
-                {Mdata.map((entry) => (
+                {Mdata.map((entry, index) => (
                     <MEntry
-                        key={entry.id}
-                        index={entry.index}
+                        key={index}
+                        index={index}
                         img1={entry.img1}
                         img2={entry.img2}
                         img3={entry.img3}
