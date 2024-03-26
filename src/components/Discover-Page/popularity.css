@@ -5,8 +5,8 @@
     margin: 0 auto;
     width: 80%;
     height: auto;
-    margin-top: 150px;
-    margin-bottom: 100px;
+    margin-top: 120px;
+    margin-bottom: 130px;
 }
 
 .pop-box {
@@ -21,7 +21,8 @@
     justify-content: center;
     align-items: center;
     margin-bottom: 2px;
-    color: teal;
+    color: rgb(143, 219, 139);
+    font-size: 2rem;
 }
 
 .pop-box>h1 {

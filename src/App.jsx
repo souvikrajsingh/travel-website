@@ -9,6 +9,7 @@ import Beach from "./components/Discover-Page/BestBeaches/Beach";
 import Inational from "./components/Discover-Page/International/Inational";
 import Ptrek from "./components/Discover-Page/Popular-treks/Ptrek";
 import './index.css';
+import Popularity from './components/Discover-Page/Popularity';
 
 import offer1 from './components/Discover-Page/Banners/offerPoster1.png';
 import videoFile from './components/Discover-Page/Banners/PromoVideo.mp4';
@@ -20,6 +21,7 @@ function App() {
       <Navbar />
       <Animation />
       <SearchBox />
+      <Popularity />
       <CardSlick />
       <Mountains />
       <Beach />
