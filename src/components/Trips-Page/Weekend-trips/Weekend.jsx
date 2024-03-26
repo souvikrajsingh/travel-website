@@ -3,8 +3,8 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import '../Ycommon.css';
-import TEntry from "./TEntry";
-import Tdata from "./Tdata";
+import WEntry from "./WEntry";
+import Wdata from "./Wdata";
 
 function SampleNextArrow(props) {
     const { className, style, onClick } = props;
@@ -40,7 +40,7 @@ function SamplePrevArrow(props) {
     );
 }
 
-export default function Trending() {
+export default function Weekend() {
     const settings = {
         dots: true,
         infinite: true,
@@ -48,21 +48,21 @@ export default function Trending() {
         slidesToScroll: 1,
         nextArrow: <SampleNextArrow />,
         prevArrow: <SamplePrevArrow />,
-        autoplay: true,
+        // autoplay: true,
         autoplaySpeed: 4000,
         pauseOnHover: true
     };
 
     return (
         <div className="slider-container">
-            <h1>Trending Trips of The Season ✨</h1>
-            <p>Find yourself awestruck with these trending packages</p>
+            <h1>Weekend Trips ✨</h1>
+            <p>Find yourself awestruck with these weekend packages</p>
 
             <Slider {...settings}>
 
                 {/* Map through the data from the Data file and create entries */}
-                {Tdata.map((entry, index) => (
-                    <TEntry
+                {Wdata.map((entry, index) => (
+                    <WEntry
                         key={index}
                         index={index}
                         img1={entry.img1}

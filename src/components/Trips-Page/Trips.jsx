@@ -5,6 +5,7 @@ import Footer from "../Footer.jsx";
 import './trips.css';
 import Features from './Features.jsx';
 import Trending from './Trending-trips/Trending.jsx';
+import Weekend from './Weekend-trips/Weekend.jsx';
 
 import vidFile from './AA-opening-video/bg.webm';
 
@@ -15,6 +16,7 @@ export default function Explore() {
       <OpeningVideo />
       <Features />
       <Trending />
+      <Weekend />
       <Footer />
     </>
   );
