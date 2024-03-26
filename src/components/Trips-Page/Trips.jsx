@@ -3,6 +3,7 @@ import $ from 'jquery';
 import Navbar from "../Navbar.jsx";
 import Footer from "../Footer.jsx";
 import './trips.css';
+import Popularity from './Popularity.jsx';
 
 import vidFile from './opening-video/bg.webm';
 
@@ -11,6 +12,7 @@ export default function Explore() {
     <>
       <Navbar />
       <OpeningVideo />
+      <Popularity />
       <Footer />
     </>
   );

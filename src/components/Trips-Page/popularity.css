@@ -1,0 +1,30 @@
+
+.pop-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 0 auto;
+    width: 80%;
+    height: auto;
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+.pop-box {
+    display: grid;
+    place-items: center;
+    width: 100%;
+    padding: 5px;
+}
+
+.pop-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2px;
+    color: teal;
+}
+
+.pop-box>h1 {
+    font-weight: bold;
+    padding-top: 10px;
+}
