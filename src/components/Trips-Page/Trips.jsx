@@ -6,6 +6,7 @@ import './trips.css';
 import Features from './Features.jsx';
 import Trending from './Trending-trips/Trending.jsx';
 import Weekend from './Weekend-trips/Weekend.jsx';
+import Adventure from './Adventure-activity/Adventure.jsx';
 
 import vidFile from './AA-opening-video/bg.webm';
 
@@ -17,6 +18,7 @@ export default function Explore() {
       <Features />
       <Trending />
       <Weekend />
+      <Adventure />
       <Footer />
     </>
   );
