@@ -7,7 +7,7 @@ import logo from "./travelhikes-logo.png";
 function Navbar() {
   return (
     <div>
-      <header className="bg-white fixed top-0 left-0 w-full pl-20 z-50 bg-opacity-6 backdrop-blur-lg" style={{ boxShadow: '-5px 9px 10px hsla(0,0%,78%,.25)' }}>
+      <header className="fixed top-0 left-0 w-full pl-20 z-50 backdrop-blur-lg" style={{ boxShadow: '-5px 9px 10px hsla(0,0%,78%,.25)' }}>
         <nav className="flex justify-between items-center w-[92%] mx-auto pt-3">
           <div className="flex items-center">
             <img src={logo} alt="Logo" className="h-10 ml-2" />

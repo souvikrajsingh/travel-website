@@ -4,8 +4,9 @@ import Navbar from "../Navbar.jsx";
 import Footer from "../Footer.jsx";
 import './trips.css';
 import Features from './Features.jsx';
+import Trending from './Trending-trips/Trending.jsx';
 
-import vidFile from './opening-video/bg.webm';
+import vidFile from './AA-opening-video/bg.webm';
 
 export default function Explore() {
   return (
@@ -13,6 +14,7 @@ export default function Explore() {
       <Navbar />
       <OpeningVideo />
       <Features />
+      <Trending />
       <Footer />
     </>
   );
