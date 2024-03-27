@@ -8,7 +8,8 @@ import Trending from './Trending-trips/Trending.jsx';
 import Weekend from './Weekend-trips/Weekend.jsx';
 import Adventure from './Adventure-activity/Adventure.jsx';
 
-import vidFile from './AA-opening-video/bg.webm';
+import vidFile from './AA-media/bg.webm';
+import poster1 from './AA-media/trips-banner-1.png';
 
 export default function Explore() {
   return (
@@ -16,6 +17,7 @@ export default function Explore() {
       <Navbar />
       <OpeningVideo />
       <Features />
+      <DisplayPoster />
       <Trending />
       <Weekend />
       <Adventure />
@@ -81,5 +83,15 @@ function OpeningVideo() {
       </div>
 
     </div>
+  );
+}
+
+function DisplayPoster() {
+  return (
+    <>
+      <div className="trip-poster-container">
+        <img src={poster1} alt="trip-poster" className="trip-poster1" />
+      </div>
+    </>
   );
 }

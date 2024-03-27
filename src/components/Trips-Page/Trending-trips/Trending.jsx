@@ -55,7 +55,7 @@ export default function Trending() {
 
     return (
         <div className="slider-container">
-            <h1>Trending Trips of The Season ✨</h1>
+            <h1>Trending Trips ✨</h1>
             <p>Find yourself awestruck with these trending packages</p>
 
             <Slider {...settings}>

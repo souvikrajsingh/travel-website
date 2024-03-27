@@ -112,3 +112,21 @@
   opacity: 1;
   width: 300px;
 }
+
+/* poster1 styling */
+
+.trip-poster-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.trip-poster1 {
+  width: 90%;
+  height: auto;
+  aspect-ratio: unset;
+  object-fit: cover;
+  margin-bottom: 30px;
+  border-radius: 200px;
+}
