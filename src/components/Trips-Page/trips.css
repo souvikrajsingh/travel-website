@@ -113,7 +113,7 @@
   width: 300px;
 }
 
-/* poster1 styling */
+/* poster styling */
 
 .trip-poster-container {
   display: flex;
@@ -123,10 +123,21 @@
 }
 
 .trip-poster1 {
-  width: 90%;
+  width: 80%;
   height: auto;
   aspect-ratio: unset;
   object-fit: cover;
-  margin-bottom: 30px;
   border-radius: 200px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.trip-poster2 {
+  width: 80%;
+  height: auto;
+  aspect-ratio: unset;
+  object-fit: cover;
+  border-radius: 200px;
+  margin-top: 90px;
+  margin-bottom: 130px;
 }

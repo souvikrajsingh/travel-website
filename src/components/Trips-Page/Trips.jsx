@@ -12,6 +12,7 @@ import Japan from './Japan-trip/Japan.jsx';
 
 import vidFile from './AA-media/bg.webm';
 import poster1 from './AA-media/trips-banner-1.png';
+import poster2 from './AA-media/trips-banner-2.png';
 
 export default function Explore() {
   return (
@@ -19,12 +20,13 @@ export default function Explore() {
       <Navbar />
       <OpeningVideo />
       <Features />
-      <DisplayPoster />
+      <DisplayPoster1 />
       <Trending />
       <Weekend />
       <Adventure />
       <India />
       <Japan />
+      <DisplayPoster2 />
       <Footer />
     </>
   );
@@ -90,11 +92,21 @@ function OpeningVideo() {
   );
 }
 
-function DisplayPoster() {
+function DisplayPoster1() {
   return (
     <>
       <div className="trip-poster-container">
         <img src={poster1} alt="trip-poster" className="trip-poster1" />
+      </div>
+    </>
+  );
+}
+
+function DisplayPoster2() {
+  return (
+    <>
+      <div className="trip-poster-container">
+        <img src={poster2} alt="trip-poster" className="trip-poster2" />
       </div>
     </>
   );

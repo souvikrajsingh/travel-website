@@ -1,53 +1,53 @@
 const Tdata = [
     {
-        img1: "https://images.pexels.com/photos/7242464/pexels-photo-7242464.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        img2: "https://images.pexels.com/photos/4428286/pexels-photo-4428286.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        img3: "https://images.pexels.com/photos/4430322/pexels-photo-4430322.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        duration: "⏳7 days & 6 nights",
-        location: "🏖️India",
-        title: "Goa Beach",
-        review: "⭐⭐⭐⭐⭐ (9321)",
-        price: "INR 180,000"
-    },
-    {
-        img1: "https://images.pexels.com/photos/20528016/pexels-photo-20528016/free-photo-of-silhouette-of-woman-walking-along-seashore-at-dawn.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        img2: "https://images.pexels.com/photos/16552412/pexels-photo-16552412/free-photo-of-a-quillayute-needle-rock-formation-on-the-pacific-coast-in-olympic-national-park-in-washington-usa.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        img3: "https://images.pexels.com/photos/16514415/pexels-photo-16514415/free-photo-of-umbrellas-and-mattresses-on-beach-in-croatia.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        duration: "⏳10 days & 9 nights",
-        location: "🏖️Vietnam",
-        title: "Mui Ne Beach",
-        review: "⭐⭐⭐⭐⭐ (8743)",
-        price: "INR 220,000"
-    },
-    {
-        img1: "https://images.pexels.com/photos/931018/pexels-photo-931018.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        img2: "https://images.pexels.com/photos/2474689/pexels-photo-2474689.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        img3: "https://images.pexels.com/photos/1074442/pexels-photo-1074442.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        img1: "https://images.pexels.com/photos/5205097/pexels-photo-5205097.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        img2: "https://images.pexels.com/photos/8568202/pexels-photo-8568202.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        img3: "https://images.pexels.com/photos/17118365/pexels-photo-17118365/free-photo-of-hidimba-devi-temple-in-snow.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         duration: "⏳8 days & 7 nights",
-        location: "🏖️Indonesia",
-        title: "Kuta Beach, Bali",
-        review: "⭐⭐⭐⭐⭐ (7654)",
-        price: "INR 200,000"
-    },    
-    {
-        img1: "https://images.pexels.com/photos/3229454/pexels-photo-3229454.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        img2: "https://images.pexels.com/photos/4024726/pexels-photo-4024726.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        img3: "https://images.pexels.com/photos/6938750/pexels-photo-6938750.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        duration: "⏳9 days & 8 nights",
-        location: "🏖️Thailand",
-        title: "Railay Beach",
-        review: "⭐⭐⭐⭐⭐ (9108)",
-        price: "INR 240,000"
+        location: "🇮🇳 Manali, India",
+        title: "Himalayan Adventure",
+        review: "⭐⭐⭐⭐⭐ (9876)",
+        price: "INR 280,000"
     },
     {
-        img1: "https://images.pexels.com/photos/11686040/pexels-photo-11686040.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        img2: "https://images.pexels.com/photos/533974/pexels-photo-533974.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        img3: "https://images.pexels.com/photos/533961/pexels-photo-533961.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        img1: "https://images.pexels.com/photos/2403207/pexels-photo-2403207.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        img2: "https://images.pexels.com/photos/19756126/pexels-photo-19756126/free-photo-of-brick-arcade-of-a-cellular-jail-in-perspective.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        img3: "https://images.pexels.com/photos/11434425/pexels-photo-11434425.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        duration: "⏳6 days & 5 nights",
+        location: "🇮🇳 Andaman, India",
+        title: "Island Paradise Escape",
+        review: "⭐⭐⭐⭐⭐ (7543)",
+        price: "INR 320,000"
+    },
+    {
+        img1: "https://images.pexels.com/photos/4430306/pexels-photo-4430306.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        img2: "https://images.pexels.com/photos/4430314/pexels-photo-4430314.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        img3: "https://images.pexels.com/photos/4429329/pexels-photo-4429329.jpeg?auto=compress&cs=tinysrgb&w=600",
+        duration: "⏳10 days & 9 nights",
+        location: "🇮🇳 Goa, India",
+        title: "Goa Beach Retreat",
+        review: "⭐⭐⭐⭐⭐ (6321)",
+        price: "INR 300,000"
+    },
+    {
+        img1: "https://images.pexels.com/photos/18221637/pexels-photo-18221637/free-photo-of-young-woman-standing-on-one-leg-on-mountain-in-rishikesh-india.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        img2: "https://images.pexels.com/photos/10620256/pexels-photo-10620256.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        img3: "https://images.pexels.com/photos/17693658/pexels-photo-17693658/free-photo-of-a-city-with-many-buildings-and-boats-on-the-water.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         duration: "⏳12 days & 11 nights",
-        location: "🏖️Philippines",
-        title: "White Beach, Boracay",
-        review: "⭐⭐⭐⭐⭐ (6489)",
-        price: "INR 260,000"
+        location: "🇮🇳 Rishikesh, India",
+        title: "Spiritual Yoga Retreat",
+        review: "⭐⭐⭐⭐⭐ (8921)",
+        price: "INR 350,000"
+    },
+    {
+        img1: "https://images.pexels.com/photos/8893040/pexels-photo-8893040.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        img2: "https://images.pexels.com/photos/9460418/pexels-photo-9460418.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        img3: "https://images.pexels.com/photos/10821527/pexels-photo-10821527.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        duration: "⏳9 days & 8 nights",
+        location: "🇮🇳 Kerala, India",
+        title: "Backwater Cruise Experience",
+        review: "⭐⭐⭐⭐⭐ (7410)",
+        price: "INR 330,000"
     },
 ];
 

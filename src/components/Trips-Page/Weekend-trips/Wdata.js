@@ -1,53 +1,53 @@
 const Wdata = [
     {
-        img1: "https://images.pexels.com/photos/7242464/pexels-photo-7242464.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        img2: "https://images.pexels.com/photos/4428286/pexels-photo-4428286.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        img3: "https://images.pexels.com/photos/4430322/pexels-photo-4430322.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        duration: "⏳7 days & 6 nights",
-        location: "🏖️India",
-        title: "Goa Beach",
-        review: "⭐⭐⭐⭐⭐ (9321)",
-        price: "INR 180,000"
+        img1: "https://images.pexels.com/photos/4877062/pexels-photo-4877062.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        img2: "https://images.pexels.com/photos/3574440/pexels-photo-3574440.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        img3: "https://images.pexels.com/photos/5718271/pexels-photo-5718271.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        duration: "⏳3 days & 2 nights",
+        location: "🇮🇳 Shimla, India",
+        title: "Scenic Shimla",
+        review: "⭐⭐⭐⭐⭐ (8123)",
+        price: "INR 25,000"
     },
     {
-        img1: "https://images.pexels.com/photos/20528016/pexels-photo-20528016/free-photo-of-silhouette-of-woman-walking-along-seashore-at-dawn.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        img2: "https://images.pexels.com/photos/16552412/pexels-photo-16552412/free-photo-of-a-quillayute-needle-rock-formation-on-the-pacific-coast-in-olympic-national-park-in-washington-usa.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        img3: "https://images.pexels.com/photos/16514415/pexels-photo-16514415/free-photo-of-umbrellas-and-mattresses-on-beach-in-croatia.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        duration: "⏳10 days & 9 nights",
-        location: "🏖️Vietnam",
-        title: "Mui Ne Beach",
-        review: "⭐⭐⭐⭐⭐ (8743)",
-        price: "INR 220,000"
+        img1: "https://images.pexels.com/photos/18321742/pexels-photo-18321742/free-photo-of-a-street-with-people-walking-and-a-bunch-of-lights.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        img2: "https://images.pexels.com/photos/12094538/pexels-photo-12094538.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        img3: "https://images.pexels.com/photos/18646445/pexels-photo-18646445/free-photo-of-rangdum-village-in-zanskar-valley.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        duration: "⏳2 days & 1 night",
+        location: "🇮🇳 Leh, India",
+        title: "Leh Getaway",
+        review: "⭐⭐⭐⭐⭐ (6554)",
+        price: "INR 20,000"
     },
     {
-        img1: "https://images.pexels.com/photos/931018/pexels-photo-931018.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        img2: "https://images.pexels.com/photos/2474689/pexels-photo-2474689.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        img3: "https://images.pexels.com/photos/1074442/pexels-photo-1074442.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        duration: "⏳8 days & 7 nights",
-        location: "🏖️Indonesia",
-        title: "Kuta Beach, Bali",
-        review: "⭐⭐⭐⭐⭐ (7654)",
-        price: "INR 200,000"
-    },    
-    {
-        img1: "https://images.pexels.com/photos/3229454/pexels-photo-3229454.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        img2: "https://images.pexels.com/photos/4024726/pexels-photo-4024726.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        img3: "https://images.pexels.com/photos/6938750/pexels-photo-6938750.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        duration: "⏳9 days & 8 nights",
-        location: "🏖️Thailand",
-        title: "Railay Beach",
-        review: "⭐⭐⭐⭐⭐ (9108)",
-        price: "INR 240,000"
+        img1: "https://images.pexels.com/photos/17845104/pexels-photo-17845104/free-photo-of-kanchanjunga-mountain-sunrise.jpeg?auto=compress&cs=tinysrgb&w=600",
+        img2: "https://images.pexels.com/photos/10440693/pexels-photo-10440693.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        img3: "https://images.pexels.com/photos/17845049/pexels-photo-17845049/free-photo-of-sandakpu-darjeeling-beautiful-morning-sunrise.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        duration: "⏳2 days & 1 night",
+        location: "🇮🇳 Darjeeling, India",
+        title: "Darjeeling Tea Trails",
+        review: "⭐⭐⭐⭐⭐ (7432)",
+        price: "INR 22,000"
     },
     {
-        img1: "https://images.pexels.com/photos/11686040/pexels-photo-11686040.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        img2: "https://images.pexels.com/photos/533974/pexels-photo-533974.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        img3: "https://images.pexels.com/photos/533961/pexels-photo-533961.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        duration: "⏳12 days & 11 nights",
-        location: "🏖️Philippines",
-        title: "White Beach, Boracay",
-        review: "⭐⭐⭐⭐⭐ (6489)",
-        price: "INR 260,000"
+        img1: "https://images.pexels.com/photos/18377618/pexels-photo-18377618/free-photo-of-toy-train-in-india.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        img2: "https://images.pexels.com/photos/18521767/pexels-photo-18521767/free-photo-of-lake.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        img3: "https://images.pexels.com/photos/16480189/pexels-photo-16480189/free-photo-of-ornate-adams-fountain-in-ooty-india.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        duration: "⏳2 days & 1 night",
+        location: "🇮🇳 Ooty, India",
+        title: "Ooty Hill Retreat",
+        review: "⭐⭐⭐⭐⭐ (5210)",
+        price: "INR 23,000"
+    },
+    {
+        img1: "https://images.pexels.com/photos/8171698/pexels-photo-8171698.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        img2: "https://images.pexels.com/photos/15896015/pexels-photo-15896015/free-photo-of-laxmanjhula-ramjhula-rishikesh-uttarakhand.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        img3: "https://images.pexels.com/photos/804686/pexels-photo-804686.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        duration: "⏳2 days & 1 night",
+        location: "🇮🇳 Haridwar, India",
+        title: "Haridwar Temple Darshan",
+        review: "⭐⭐⭐⭐⭐ (6321)",
+        price: "INR 20,000"
     },
 ];
 

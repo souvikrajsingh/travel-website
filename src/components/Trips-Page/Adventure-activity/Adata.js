@@ -1,53 +1,53 @@
 const Adata = [
     {
-        img1: "https://images.pexels.com/photos/7242464/pexels-photo-7242464.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        img2: "https://images.pexels.com/photos/4428286/pexels-photo-4428286.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        img3: "https://images.pexels.com/photos/4430322/pexels-photo-4430322.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        duration: "⏳7 days & 6 nights",
-        location: "🏖️India",
-        title: "Goa Beach",
+        img1: "https://images.pexels.com/photos/11183384/pexels-photo-11183384.jpeg?auto=compress&cs=tinysrgb&w=600",
+        img2: "https://images.pexels.com/photos/13017123/pexels-photo-13017123.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        img3: "https://images.pexels.com/photos/15928373/pexels-photo-15928373/free-photo-of-men-rafting-on-gusty-river.jpeg?auto=compress&cs=tinysrgb&w=600",
+        duration: "⏳6 hours",
+        location: "🇮🇳 Rishikesh, India",
+        title: "Ganges River Rafting & Cliff Jumping",
         review: "⭐⭐⭐⭐⭐ (9321)",
-        price: "INR 180,000"
+        price: "INR 25,000"
     },
     {
-        img1: "https://images.pexels.com/photos/20528016/pexels-photo-20528016/free-photo-of-silhouette-of-woman-walking-along-seashore-at-dawn.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        img2: "https://images.pexels.com/photos/16552412/pexels-photo-16552412/free-photo-of-a-quillayute-needle-rock-formation-on-the-pacific-coast-in-olympic-national-park-in-washington-usa.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        img3: "https://images.pexels.com/photos/16514415/pexels-photo-16514415/free-photo-of-umbrellas-and-mattresses-on-beach-in-croatia.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        duration: "⏳10 days & 9 nights",
-        location: "🏖️Vietnam",
-        title: "Mui Ne Beach",
+        img1: "https://images.pexels.com/photos/20058411/pexels-photo-20058411/free-photo-of-surfer-on-wave.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        img2: "https://images.pexels.com/photos/2959611/pexels-photo-2959611.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        img3: "https://images.pexels.com/photos/18034444/pexels-photo-18034444/free-photo-of-woman-walking-on-beach-with-surfboard.jpeg?auto=compress&cs=tinysrgb&w=600",
+        duration: "⏳5 days",
+        location: "🇮🇳 Andaman Islands, India",
+        title: "Andaman Sea Surfing & Island Hopping",
         review: "⭐⭐⭐⭐⭐ (8743)",
-        price: "INR 220,000"
+        price: "INR 35,000"
     },
     {
-        img1: "https://images.pexels.com/photos/931018/pexels-photo-931018.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        img2: "https://images.pexels.com/photos/2474689/pexels-photo-2474689.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        img3: "https://images.pexels.com/photos/1074442/pexels-photo-1074442.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        duration: "⏳8 days & 7 nights",
-        location: "🏖️Indonesia",
-        title: "Kuta Beach, Bali",
+        img1: "https://images.pexels.com/photos/3413678/pexels-photo-3413678.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        img2: "https://images.pexels.com/photos/1497582/pexels-photo-1497582.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        img3: "https://images.pexels.com/photos/9305074/pexels-photo-9305074.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        duration: "⏳4 hours",
+        location: "🇮🇳 Srinagar, India",
+        title: "Dal Lake Kayaking & Shikara Ride",
         review: "⭐⭐⭐⭐⭐ (7654)",
-        price: "INR 200,000"
-    },    
-    {
-        img1: "https://images.pexels.com/photos/3229454/pexels-photo-3229454.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        img2: "https://images.pexels.com/photos/4024726/pexels-photo-4024726.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        img3: "https://images.pexels.com/photos/6938750/pexels-photo-6938750.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        duration: "⏳9 days & 8 nights",
-        location: "🏖️Thailand",
-        title: "Railay Beach",
-        review: "⭐⭐⭐⭐⭐ (9108)",
-        price: "INR 240,000"
+        price: "INR 30,000"
     },
     {
-        img1: "https://images.pexels.com/photos/11686040/pexels-photo-11686040.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        img2: "https://images.pexels.com/photos/533974/pexels-photo-533974.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        img3: "https://images.pexels.com/photos/533961/pexels-photo-533961.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        duration: "⏳12 days & 11 nights",
-        location: "🏖️Philippines",
-        title: "White Beach, Boracay",
+        img1: "https://images.pexels.com/photos/4056105/pexels-photo-4056105.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        img2: "https://images.pexels.com/photos/13066627/pexels-photo-13066627.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        img3: "https://images.pexels.com/photos/9242873/pexels-photo-9242873.jpeg?auto=compress&cs=tinysrgb&w=600",
+        duration: "⏳2 days",
+        location: "🇮🇳 Kerala Backwaters, India",
+        title: "Kerala Backwaters Houseboat Tour",
+        review: "⭐⭐⭐⭐⭐ (9108)",
+        price: "INR 40,000"
+    },
+    {
+        img1: "https://images.pexels.com/photos/4314203/pexels-photo-4314203.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        img2: "https://images.pexels.com/photos/8220243/pexels-photo-8220243.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        img3: "https://images.pexels.com/photos/7928000/pexels-photo-7928000.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        duration: "⏳10 days",
+        location: "🇮🇳 Leh, India",
+        title: "Ladakh Adventure Trekking & Camping",
         review: "⭐⭐⭐⭐⭐ (6489)",
-        price: "INR 260,000"
+        price: "INR 45,000"
     },
 ];
 
