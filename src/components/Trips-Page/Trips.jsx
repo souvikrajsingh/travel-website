@@ -8,6 +8,7 @@ import Trending from './Trending-trips/Trending.jsx';
 import Weekend from './Weekend-trips/Weekend.jsx';
 import Adventure from './Adventure-activity/Adventure.jsx';
 import India from './India-trip/India.jsx';
+import Japan from './Japan-trip/Japan.jsx';
 
 import vidFile from './AA-media/bg.webm';
 import poster1 from './AA-media/trips-banner-1.png';
@@ -23,6 +24,7 @@ export default function Explore() {
       <Weekend />
       <Adventure />
       <India />
+      <Japan />
       <Footer />
     </>
   );
