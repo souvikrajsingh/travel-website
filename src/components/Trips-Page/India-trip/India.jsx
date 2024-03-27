@@ -3,8 +3,8 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import '../Ycommon.css';
-import AEntry from "./AEntry";
-import Adata from "./Adata";
+import IEntry from "./IEntry";
+import Idata from "./Idata";
 
 function SampleNextArrow(props) {
     const { className, style, onClick } = props;
@@ -40,7 +40,7 @@ function SamplePrevArrow(props) {
     );
 }
 
-export default function Adventure() {
+export default function India() {
     const settings = {
         dots: true,
         infinite: true,
@@ -55,14 +55,14 @@ export default function Adventure() {
 
     return (
         <div className="slider-container">
-            <h1>Adventure Activities ✨</h1>
-            <p>Find yourself awestruck with these amazing activities</p>
+            <h1>India Tours ✨</h1>
+            <p>Find yourself awestruck with these amazing trips to india</p>
 
             <Slider {...settings}>
 
                 {/* Map through the data from the Data file and create entries */}
-                {Adata.map((entry, index) => (
-                    <AEntry
+                {Idata.map((entry, index) => (
+                    <IEntry
                         key={index}
                         index={index}
                         img1={entry.img1}
