@@ -4,6 +4,9 @@
 
 Welcome to the [Project Name] repository! This document will guide you through the process of cloning and setting up the project on your local system.
 
+## Demo 
+- [Demo](https://travelhikes.netlify.app/)
+
 ## Table of Contents
 
 1. [Prerequisites](#prerequisites)
