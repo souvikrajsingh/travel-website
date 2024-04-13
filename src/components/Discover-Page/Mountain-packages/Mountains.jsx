@@ -50,7 +50,36 @@ export default function Mountains() {
         prevArrow: <SamplePrevArrow />,
         // autoplay: true,
         autoplaySpeed: 4000,
-        pauseOnHover: true
+        pauseOnHover: true,
+        responsive: [
+            {
+                breakpoint: 990,
+                settings: {
+                    swipeToSlide: true,
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: true
+                }
+            },
+            {
+                breakpoint: 600,
+                settings: {
+                    swipeToSlide: true,
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                    initialSlide: 2
+                }
+            },
+            {
+                breakpoint: 530,
+                settings: {
+                    swipeToSlide: true,
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }
+        ]
     };
 
     return (
