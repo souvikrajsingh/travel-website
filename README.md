@@ -7,7 +7,7 @@ Welcome to the [Project Name] repository! This document will guide you through t
 ## Demo 
 - [Demo](https://travelhikes.netlify.app/)
 
-- [ScreenShot](./travel.png)
+![Screenshot](./travel.png)
 
 ## Table of Contents
 
